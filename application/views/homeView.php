@@ -37,25 +37,36 @@
 <div class="headerwrapper">
     <div id="header" class="container">
         <div class="logo"> <a href="#"><img src="<?php echo base_url()?>template/images/LOGO.png" alt="logo" width="165" height="74"></a> </div> <!--end of Logo-->
+
+         <!-- <div class="top_nav_right">
+                    <div class="wthreecartaits wthreecartaits2 cart cart box_1">
+                        <form action="#" method="post" class="last">
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="display" value="1">
+                            <button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </form>
+
+                    </div>
+        </div> -->
         <nav>
             <ul id="navigations">
                 <li><a href="#navigations">HOME</a></li>
                 <li> <a href="#slider">ABOUT</a></li>
                 <li><a href="#map">LOCATONS</a></li>
                 <li><a href="#bestdishes">MENU</a></li>
-                <li><a href="#contactus">CONTACT</a></li>
-                <div class="top_nav_right">
-                                <div class="wthreecartaits wthreecartaits2 cart cart box_1">
-                                    <form action="#" method="post" class="last">
-                                        <input type="hidden" name="cmd" value="_cart">
-                                        <input type="hidden" name="display" value="1">
-                                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-                                    </form>
-
-                                </div>
-                            </div>
+                <li><a href="#contactus">CONTACT</a></li>               
                 
             </ul>
+
+           
+
+            <div id='search'>
+                <form method="get" action="" enctype="mutipart/form-data">
+                    <input type="text" name="user_query" />
+                    <input type="button" name="search" value="Search" />                    
+                </form>
+
+            </div>
         </nav>
     </div> <!--end of header-->
 </div> <!-- end of headerwrapper-->
