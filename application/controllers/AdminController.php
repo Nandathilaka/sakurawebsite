@@ -68,7 +68,9 @@ class AdminController extends CI_Controller{
 		$this->session->sess_destroy();
 		redirect('admin/loginView');
 	}
-
+	function registerUser(){
+		$this->load->view('admin/registerUserView');
+	}
 
 
 }
