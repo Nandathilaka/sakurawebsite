@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Startmin - Bootstrap Admin Theme</title>
+        <title>SakuraThala Admin Dashboard</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="<?php echo base_url()?>template/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
             <!-- Navigation -->
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Startmin</a>
+                    <a class="navbar-brand" href="index.html">SakuraThala Sweets</a>
                 </div>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -118,42 +118,88 @@
                             <li>
                                 <a href="" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                             </li>
+
+
                            
                             <li>
-                                <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                                <a href="<?php echo base_url()?>index.php/AdminController/addNewProduct"><i class="fa fa-edit fa-fw"></i> Add new item</a>
                             </li>
+
                             <li>
-                                <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
+                                <a href="#"><i class="fa fa-sitemap fa-fw"></i>Manage items<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="panels-wells.html">Panels and Wells</a>
+                                        <a href="#">Update item</a>
                                     </li>
                                     <li>
-                                        <a href="buttons.html">Buttons</a>
+                                        <a href="#">Delete item</a>
                                     </li>
-                                    <li>
-                                        <a href="notifications.html">Notifications</a>
-                                    </li>
-                                    <li>
-                                        <a href="typography.html">Typography</a>
-                                    </li>
-                                    <li>
-                                        <a href="icons.html"> Icons</a>
-                                    </li>
-                                    <li>
-                                        <a href="grid.html">Grid</a>
-                                    </li>
+                                    
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
+
+
                             <li>
-                                <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                                <a href="#"><i class="fa fa-edit fa-fw"></i> View Sales </a>
+                            </li>
+                            
+                           
+                            <li>
+                                <a href="#"><i class="fa fa-sitemap fa-fw"></i> View Orders<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="#">Second Level Item</a>
+                                        <a href="#">Today Orders</a>
                                     </li>
                                     <li>
-                                        <a href="#">Second Level Item</a>
+                                        <a href="#">Previous Orders</a>
+                                    </li>
+                                    
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-sitemap fa-fw"></i>Customers<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#">Send notification</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Manage customers</a>
+                                    </li>
+                                    
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-sitemap fa-fw"></i>Manage Employees<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#">Register employees</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">View all employees</a>
+                                    </li>
+                                    
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+
+                            <li>
+                                <a href="<?echo base_url();?>index.php/AdminController/registerUser"><i class="fa fa-edit fa-fw"></i> Register user </a>
+                            </li>
+
+
+                            <!-- <li>
+                                <a href="#"><i class="fa fa-sitemap fa-fw"></i> View Orders<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#">Today Orders</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Previous Orders</a>
                                     </li>
                                     <li>
                                         <a href="#">Third Level <span class="fa arrow"></span></a>
@@ -172,22 +218,11 @@
                                             </li>
                                         </ul>
                                         <!-- /.nav-third-level -->
-                                    </li>
-                                </ul>
+                                    <!-- </li> -->
+                                <!-- </ul> -->
                                 <!-- /.nav-second-level -->
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level">
-                                    <li>
-                                        <a href="blank.html">Blank Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="login.html">Login Page</a>
-                                    </li>
-                                </ul>
-                                <!-- /.nav-second-level -->
-                            </li>
+                            <!-- </li> --> -->
+                            
                         </ul>
                     </div>
                 </div>
