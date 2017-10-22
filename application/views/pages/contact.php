@@ -44,7 +44,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 	<div class="agileits_header">
 		<div class="container">
+<<<<<<< HEAD
 			<div class="skura_offers">
+=======
+			<div class="w3l_offers">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 				<p>SALE UP TO 70% OFF. USE CODE "SALE70%" . <a href="products">SHOP NOW</a></p>
 			</div>
 			<div class="agile-login">
@@ -59,7 +63,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<form action="#" method="post" class="last"> 
 						<input type="hidden" name="cmd" value="_cart">
 						<input type="hidden" name="display" value="1">
+<<<<<<< HEAD
 						<button class="sakura-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+=======
+						<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 					</form>  
 			</div>
 			<div class="clearfix"> </div>
@@ -68,16 +76,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<div class="logo_products">
 		<div class="container">
+<<<<<<< HEAD
 		<div class="skura_logo_products_left1">
+=======
+		<div class="w3ls_logo_products_left1">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 				<ul class="phone_email">
 					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
 					
 				</ul>
 			</div>
+<<<<<<< HEAD
 			<div class="sakura_logo_products_left">
 				<h1><a href="home">super Market</a></h1>
 			</div>
 		<div class="skura_search">
+=======
+			<div class="w3ls_logo_products_left">
+				<h1><a href="index.html">super Market</a></h1>
+			</div>
+		<div class="w3l_search">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 			<form action="#" method="post">
 				<input type="search" name="Search" placeholder="Search for a Product..." required="">
 				<button type="submit" class="btn btn-default search" aria-label="Left Align">
@@ -106,7 +125,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div> 
 							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 								<ul class="nav navbar-nav">
+<<<<<<< HEAD
 									<li class="active"><a href="home" class="act">Home</a></li>
+=======
+									<li class="active"><a href="index.html" class="act">Home</a></li>	
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 									<!-- Mega Menu -->
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Groceries<b class="caret"></b></a>
@@ -219,7 +242,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="breadcrumbs">
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+<<<<<<< HEAD
 				<li><a href="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+=======
+				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 				<li class="active">Contact</li>
 			</ol>
 		</div>
@@ -232,15 +259,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="agile_map">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3905851087434!2d-34.90500565012194!3d-8.061582082752993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18d90992e4ab%3A0x8e83c4afabe39a3a!2sSport+Club+Do+Recife!5e0!3m2!1sen!2sin!4v1478684415917" style="border:0"></iframe>
 				</div>
+<<<<<<< HEAD
 				<div class="agileits_sakura_layouts_map_pos">
 					<div class="agileits_sakura_layouts_map_pos1">
+=======
+				<div class="agileits_w3layouts_map_pos">
+					<div class="agileits_w3layouts_map_pos1">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 						<h3>Contact Info</h3>
 						<p>1234k Avenue, 4th block, New York City.</p>
 						<ul class="wthree_contact_info_address">
 							<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
 							<li><i class="fa fa-phone" aria-hidden="true"></i>+(0123) 232 232</li>
 						</ul>
+<<<<<<< HEAD
 						<div class="w3_agile_social_icons sakura_agile_social_icons_contact">
+=======
+						<div class="w3_agile_social_icons w3_agile_social_icons_contact">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 							<ul>
 								<li><a href="#" class="icon icon-cube agile_facebook"></a></li>
 								<li><a href="#" class="icon icon-cube agile_rss"></a></li>
@@ -250,8 +286,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			</div>
+<<<<<<< HEAD
 			<div class="col-md-6 sakura_agileits_contact_grid_right">
 				<h2 class="sakura_agile_header">Leave a<span> Message</span></h2>
+=======
+			<div class="col-md-6 w3_agileits_contact_grid_right">
+				<h2 class="w3_agile_header">Leave a<span> Message</span></h2>
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 
 				<form action="#" method="post">
 					<span class="input input--ichiro">
@@ -279,7 +320,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="footer">
 		<div class="container">
 			<div class="w3_footer_grids">
+<<<<<<< HEAD
 				<div class="col-md-3 sakura_footer_grid">
+=======
+				<div class="col-md-3 w3_footer_grid">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 					<h3>Contact</h3>
 					
 					<ul class="address">
@@ -288,7 +333,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
 					</ul>
 				</div>
+<<<<<<< HEAD
 				<div class="col-md-3 sakura_footer_grid">
+=======
+				<div class="col-md-3 w3_footer_grid">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 					<h3>Information</h3>
 					<ul class="info"> 
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="about">About Us</a></li>
@@ -298,7 +347,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products">Special Products</a></li>
 					</ul>
 				</div>
+<<<<<<< HEAD
 				<div class="col-md-3 sakura_footer_grid">
+=======
+				<div class="col-md-3 w3_footer_grid">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 					<h3>Category</h3>
 					<ul class="info"> 
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="groceries">Groceries</a></li>
@@ -308,7 +361,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="beverages">Beverages</a></li>
 					</ul>
 				</div>
+<<<<<<< HEAD
 				<div class="col-md-3 sakura_footer_grid">
+=======
+				<div class="col-md-3 w3_footer_grid">
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 					<h3>Profile</h3>
 					<ul class="info"> 
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products">Store</a></li>
@@ -326,13 +383,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="footer-copy">
 			
 			<div class="container">
+<<<<<<< HEAD
 				<p>© 2017 Super Market. All rights reserved | Design by Group 38
+=======
+				<p>© 2017 Super Market. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 			</div>
 		</div>
 		
 	</div>	
 	<div class="footer-botm">
 			<div class="container">
+<<<<<<< HEAD
 				<div class="sakura_layouts-foot">
 					<ul>
 						<li><a href="#" class="sakura_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -342,6 +404,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="payment-sakura">
+=======
+				<div class="w3layouts-foot">
+					<ul>
+						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="payment-w3ls">	
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 					<img src="images/card.png" alt=" " class="img-responsive">
 				</div>
 				<div class="clearfix"> </div>

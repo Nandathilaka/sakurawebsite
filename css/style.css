@@ -64,7 +64,11 @@ i.badge.badge-notify.my-cart-badge {
     color: #fff;
 	top: 1em;
 }
+<<<<<<< HEAD
 input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input[type="reset"],.agileinfo_mail_grid_left ul li a,.events_bottom_left2 ul li a,.w3ls_service_grids1_right a,ul.agileits_social_icons li a,.w3l_banner_nav_right_banner_pet a,.w3ls_w3l_banner_nav_right_grid_head_grid ul li a,.products-breadcrumb ul li a,.sakura_footer_grid ul li a,.w3l_fresh_vegetables_grid ul li a,.wthree_footer_copy p a,.agile_top_brand_left_grid1 .button,.skura_logo_products_left1 ul.special_items li a,.skura_logo_products_left1 ul.phone_email li a{
+=======
+input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input[type="reset"],.agileinfo_mail_grid_left ul li a,.events_bottom_left2 ul li a,.w3ls_service_grids1_right a,ul.agileits_social_icons li a,.w3l_banner_nav_right_banner_pet a,.w3ls_w3l_banner_nav_right_grid_head_grid ul li a,.products-breadcrumb ul li a,.w3_footer_grid ul li a,.w3l_fresh_vegetables_grid ul li a,.wthree_footer_copy p a,.agile_top_brand_left_grid1 .button,.w3ls_logo_products_left1 ul.special_items li a,.w3ls_logo_products_left1 ul.phone_email li a{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;
 	-moz-transition: .5s ease-in;
@@ -75,11 +79,16 @@ input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input
     background: #333333;
     padding: 12px 0;
 }
+<<<<<<< HEAD
 .skura_offers {
+=======
+.w3l_offers {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: left;
     padding: 9px 0;
 	width: 47%;
 }
+<<<<<<< HEAD
 .skura_offers p {
     font-size: 15px;
     color: #fff;
@@ -89,11 +98,26 @@ input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input
     text-decoration: none;
 }
 .skura_search {
+=======
+.w3l_offers p {
+    font-size: 15px;
+    color: #fff;
+}
+.w3l_offers p a {
+    color: #fe9126;
+    text-decoration: none;
+}
+.w3l_search {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: right;
     width: 25.33%;
     margin: 0em 0 0em 0em;
 }
+<<<<<<< HEAD
 .skura_search input[type="search"] {
+=======
+.w3l_search input[type="search"] {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 83%;
     padding:10px;
     font-size: 14px;
@@ -141,6 +165,7 @@ button.btn.btn-default.search:hover {
     color: #fff;
     text-decoration: none;
 }
+<<<<<<< HEAD
 .skura_search input[type="search"] {
 	margin-top:0px;
 }
@@ -149,6 +174,16 @@ button.btn.btn-default.search:hover {
 	color:#fff;
 }
 button.skura_search {
+=======
+.w3l_search input[type="search"] {
+	margin-top:0px;
+}
+.w3l_search i.fa.fa-search {
+    font-size: 17px;
+	color:#fff;
+}
+button.w3l_search {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     border: none;
     position: absolute;
     top: 4px;
@@ -173,22 +208,38 @@ button.skura_search {
     font-size: 34px;
     margin-top: 7px;
 }
+<<<<<<< HEAD
 button.sakura-cart {
     background: transparent;
     border: none;
 }
 button.sakura-cart:focus{
+=======
+button.w3view-cart {
+    background: transparent;
+    border: none;
+}
+button.w3view-cart:focus{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	outline:none;
 }
 .logo_products {
     padding: 2em 0;
 }
+<<<<<<< HEAD
 .sakura_logo_products_left {
+=======
+.w3ls_logo_products_left {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: left;
     text-align: center;
     width: 33.33%;
 }
+<<<<<<< HEAD
 .sakura_logo_products_left h1 a{
+=======
+.w3ls_logo_products_left h1 a{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	font-size: 40px;
     color: #fe9126;
     text-decoration: none;
@@ -196,12 +247,20 @@ button.sakura-cart:focus{
     display: block;
     line-height: 1;
 }
+<<<<<<< HEAD
 .skura_logo_products_left1 {
+=======
+.w3ls_logo_products_left1 {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: left;
     margin-top: 0.6em;
     width: 33.33%;
 }
+<<<<<<< HEAD
 .skura_logo_products_left1 ul.phone_email li{
+=======
+.w3ls_logo_products_left1 ul.phone_email li{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	display:inline-block;
 	color:#212121;
 }
@@ -302,7 +361,11 @@ ul.multi-column-dropdown h6 {
 }
 /*-- cart --*/
 /*-- cart-box --*/ 
+<<<<<<< HEAD
 .sakura-cart {
+=======
+.w3view-cart {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     background: #3399cc;
     border: none;
 	-webkit-border-radius: 50%;
@@ -315,7 +378,11 @@ ul.multi-column-dropdown h6 {
     text-align: center;
     outline: none;
 }
+<<<<<<< HEAD
 .sakura-cart i.fa {
+=======
+.w3view-cart i.fa {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 24px;
     color: #ffffff;
     vertical-align: middle;
@@ -327,7 +394,11 @@ ul.multi-column-dropdown h6 {
     top: -1%;
     right: 10%;
 }
+<<<<<<< HEAD
 .top-brands h2,.newproducts-w3agile h3,.login h2,.register h2,.faq-sakura_agile h3,.brands h3{
+=======
+.top-brands h2,.newproducts-w3agile h3,.login h2,.register h2,.faq-w3agile h3,.brands h3{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	text-align:center;
 	color:#212121;
 	padding-bottom:.5em;
@@ -335,7 +406,11 @@ ul.multi-column-dropdown h6 {
 	font-size: 2.5em;
 	text-transform: uppercase;
 }
+<<<<<<< HEAD
 .top-brands h2:after,.newproducts-w3agile h3:after,.login h2:after,.register h2:after,.faq-sakura_agile h3:after,.brands h3:after{
+=======
+.top-brands h2:after,.newproducts-w3agile h3:after,.login h2:after,.register h2:after,.faq-w3agile h3:after,.brands h3:after{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	content: '';
     background: #3399cc;
     height: 2px;
@@ -556,7 +631,11 @@ div#myTabContent {
     color: #000;
     margin-bottom: 16px;
 }
+<<<<<<< HEAD
 p.sakura-ad {
+=======
+p.w3l-ad {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 14px;
     color: #777;
     width: 42%;
@@ -760,29 +839,46 @@ i.gray-star {
     padding: 5em 0 2em;
     background: #2b2a2a;
 }
+<<<<<<< HEAD
 .sakura_footer_grid h3 {
+=======
+.w3_footer_grid h3 {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     color: #ffffff;
     font-size: 1.5em;
     margin-bottom: 1.8em;
     text-transform: uppercase;
 }
+<<<<<<< HEAD
 .sakura_footer_grid p{
+=======
+.w3_footer_grid p{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	color:#afafaf;
 	line-height:1.8em;
 	margin-bottom:2em;
 }
+<<<<<<< HEAD
 .sakura_footer_grid ul li {
+=======
+.w3_footer_grid ul li {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     list-style-type: none;
     margin-bottom: 1em;
     color: #afafaf;
     font-size: 14px;
 }
+<<<<<<< HEAD
 .sakura_footer_grid ul.address li i {
+=======
+.w3_footer_grid ul.address li i {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     color:#fe9126;
     border: 1px solid #fe9126;
     padding: .5em;
     margin-right: 1em;
 }
+<<<<<<< HEAD
 .sakura_footer_grid ul.address li span {
     display: block;
     margin-left: 3em;
@@ -795,6 +891,20 @@ i.gray-star {
 	color:#fe9126;
 }
 .sakura_footer_grid h4{
+=======
+.w3_footer_grid ul.address li span {
+    display: block;
+    margin-left: 3em;
+}
+.w3_footer_grid ul li a {
+    color: #afafaf;
+    text-decoration: none;
+}
+.w3_footer_grid ul li a:hover {
+	color:#fe9126;
+}
+.w3_footer_grid h4{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	margin:2em 0 1em;
 	font-size:1.2em;
 	color:#ff9b05;
@@ -835,10 +945,17 @@ i.fa.fa-arrow-right {
 .footer-copy p a:hover{
 	color:#999;
 }
+<<<<<<< HEAD
 .sakura_layouts-foot ul li{
 	display:inline-block;
 }
 .sakura_layouts-foot ul li a {
+=======
+.w3layouts-foot ul li{
+	display:inline-block;
+}
+.w3layouts-foot ul li a {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 32px;
     height: 32px;
     color: #fff;
@@ -849,7 +966,11 @@ i.fa.fa-arrow-right {
     line-height: 32px;
     border-radius: 50%;
 }
+<<<<<<< HEAD
 a.sakura_agile_facebook:hover{
+=======
+a.w3_agile_facebook:hover{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	background:#3b5998;
 	 border: 1px solid #3b5998;
 }
@@ -857,6 +978,7 @@ a.agile_twitter:hover{
 	background:#1da1f2;
 	 border: 1px solid #1da1f2;
 }
+<<<<<<< HEAD
 a.sakura_agile_dribble:hover{
 	background:#ea4c89;
 	border: 1px solid #ea4c89;
@@ -869,6 +991,20 @@ a.sakura_agile_vimeo:hover{
     float: left;
 }
 .payment-sakura {
+=======
+a.w3_agile_dribble:hover{
+	background:#ea4c89;
+	border: 1px solid #ea4c89;
+}
+a.w3_agile_vimeo:hover{
+	background:#1ab7ea;
+	border: 1px solid #1ab7ea;
+}
+.w3layouts-foot {
+    float: left;
+}
+.payment-w3ls {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: right;
 }
 .footer-botm {
@@ -1240,7 +1376,11 @@ td.invert-image a img {
 }
 /*-- //checkout --*/
 /*-- faq --*/
+<<<<<<< HEAD
 h3.sakura_ls-title.sakura_ls-title1 {
+=======
+h3.w3ls-title.w3ls-title1 {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     text-align: center;
     margin: 0 0 1.5em;
     font-size: 2.5em;
@@ -1254,11 +1394,16 @@ h3.sakura_ls-title.sakura_ls-title1 {
     font-weight: 400;
     text-decoration: none;
 }
+<<<<<<< HEAD
 .faq-sakura_agile .faq li {
+=======
+.faq-w3agile .faq li {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     margin-top: 2em;
     list-style-type: decimal;
     padding-left: 0.5em;
 }
+<<<<<<< HEAD
 .faq-sakura_agile .faq > li > a {
     color: #999; 
 } 
@@ -1267,6 +1412,16 @@ h3.sakura_ls-title.sakura_ls-title1 {
     margin-top: 1em;
 }
 .faq-sakura_agile {
+=======
+.faq-w3agile .faq > li > a { 
+    color: #999; 
+} 
+.faq-w3agile .faq li li.subitem1 {
+    display: block;
+    margin-top: 1em;
+}
+.faq-w3agile {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     padding: 5em 0;
 }
 ul.faq {
@@ -1335,22 +1490,37 @@ ul.faq {
     margin: 0 !important;
     width: 25% !important;
 }
+<<<<<<< HEAD
 .sakura_agile_description h4{
+=======
+.w3agile_description h4{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	font-size:1em;
 	color:#212121;
 	text-transform:uppercase;
 }
+<<<<<<< HEAD
 .sakura_agile_description p{
+=======
+.w3agile_description p{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	font-size:14px;
 	color:#999;
 	line-height:2em;
 	margin:.5em 0 0;
 	width:80%;
 }
+<<<<<<< HEAD
 .sakura_agile_description {
     margin: 2em 0;
 }
 .sakura_banner_nav_right_grid_popular{
+=======
+.w3agile_description {
+    margin: 2em 0;
+}
+.w3ls_w3l_banner_nav_right_grid_popular{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	background:#f5f5f5;
 	padding:5em 0 !important;
 }
@@ -1359,11 +1529,19 @@ ul.faq {
     padding: 5em 0;
     background: #eed3b6;
 }
+<<<<<<< HEAD
 .brands-sakura {
     text-align: center;
    
 }
 .brands-sakura p a{
+=======
+.brands-w3l {
+    text-align: center;
+   
+}
+.brands-w3l p a{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1373,7 +1551,11 @@ ul.faq {
 	display: block;
 	 border: 1px solid #e1e1e1;
 }
+<<<<<<< HEAD
 .brands-sakura p a:hover{
+=======
+.brands-w3l p a:hover{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     box-shadow: 0 0 6px 1px #b6b6b6;
 }
 .brands-agile-1 {
@@ -1485,7 +1667,11 @@ input#amount {
 .about,.about-team, .contact,.codes {
     padding: 5em 0;
 }
+<<<<<<< HEAD
 h3.sakura_agile_header,h2.sakura_agile_header {
+=======
+h3.w3_agile_header,h2.w3_agile_header {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     text-align: center;
     color: #212121;
     padding-bottom: .5em;
@@ -1493,7 +1679,11 @@ h3.sakura_agile_header,h2.sakura_agile_header {
     font-size: 2.5em;
     text-transform: uppercase
 }
+<<<<<<< HEAD
 h3.sakura_agile_header:after,h2.sakura_agile_header:after{
+=======
+h3.w3_agile_header:after,h2.w3_agile_header:after{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     content: '';
     background: #3399cc;
     height: 2px;
@@ -1516,7 +1706,11 @@ h3.sakura_agile_header:after,h2.sakura_agile_header:after{
 .about img {
     width: 100%;
 }
+<<<<<<< HEAD
 .about-sakura_imgs {
+=======
+.about-w3imgs {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     padding: 0;
     overflow: hidden;
 }
@@ -1562,7 +1756,11 @@ h3.sakura_agile_header:after,h2.sakura_agile_header:after{
     margin-top: 3em;
 	position: relative;
 }
+<<<<<<< HEAD
 .testi h3.sakura_ls-title1 {
+=======
+.testi h3.w3ls-title1 {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     text-align: left;
 	font-size: 2.5em;
 } 
@@ -1602,7 +1800,11 @@ h3.sakura_agile_header:after,h2.sakura_agile_header:after{
     position: relative;
     display: inline-block;
 }
+<<<<<<< HEAD
 .testi span.sakura-agilesub {
+=======
+.testi span.w3-agilesub {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     position: absolute;
     background: url(../images/icon3.png) no-repeat 0px 0px;
     display: block;
@@ -1946,7 +2148,11 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
 	padding:0;
 	position:relative;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos{
+=======
+.agileits_w3layouts_map_pos{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	position: absolute;
     right: -15%;
     top: 22%;
@@ -1954,22 +2160,35 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
     padding: 2em;
     background: #3399cc;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos h3{
 	font-size:1.5em;
 	color:#212121;
 }
 .agileits_sakura_layouts_map_pos p{
+=======
+.agileits_w3layouts_map_pos h3{
+	font-size:1.5em;
+	color:#212121;
+}
+.agileits_w3layouts_map_pos p{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	color:#fff;
 	line-height:2em;
 	margin:.5em 0 1.5em;
 	font-weight:600;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos ul.wthree_contact_info_address li{
+=======
+.agileits_w3layouts_map_pos ul.wthree_contact_info_address li{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	list-style-type:none;
 	margin-bottom:1em;
 	color:#fff;
 	font-weight:600;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos ul.wthree_contact_info_address li i{
 	padding-right:1em;
 }
@@ -1991,6 +2210,29 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
 	padding:0 4em 0 12em;
 }
 .sakura_agileits_contact_grid_right form{
+=======
+.agileits_w3layouts_map_pos ul.wthree_contact_info_address li i{
+	padding-right:1em;
+}
+.agileits_w3layouts_map_pos ul.wthree_contact_info_address li a{
+	color:#fff;
+	text-decoration:none;
+}
+.agileits_w3layouts_map_pos ul.wthree_contact_info_address li a:hover{
+	color:#212121;
+}
+.w3_agile_social_icons_contact ul li a {
+    text-align: center;
+}
+.agileits_w3layouts_map_pos1{
+	padding:2em;
+	border:3px double #fff;
+}
+.w3_agileits_contact_grid_right{
+	padding:0 4em 0 12em;
+}
+.w3_agileits_contact_grid_right form{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	padding:1em 0 0;
 }
 /*-- effect --*/
@@ -2123,7 +2365,11 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
 	-webkit-transform: translate3d(0, -2.4em, 0) scale3d(0.8, 0.8, 1);
 	transform:translate3d(0, -2.4em, 0) scale3d(0.8, 0.8, 1) translateZ(1px);
 }
+<<<<<<< HEAD
 .sakura_agileits_contact_grid_right textarea {
+=======
+.w3_agileits_contact_grid_right textarea {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     outline: none;
     width: 100%;
     background: #f5f5f5;
@@ -2135,10 +2381,17 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
     font-weight: bold;
     margin: 2em 0 0;
 }
+<<<<<<< HEAD
 .sakura_agileits_contact_grid_right textarea::-webkit-input-placeholder {
 	color: #212121 !important;
 }
 .sakura_agileits_contact_grid_right input[type="submit"] {
+=======
+.w3_agileits_contact_grid_right textarea::-webkit-input-placeholder {
+	color: #212121 !important;
+}
+.w3_agileits_contact_grid_right input[type="submit"] {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     outline: none;
     width: 100%;
     background: #212121;
@@ -2151,7 +2404,11 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
     margin: 1em 0 0;
     letter-spacing: 5px;
 }
+<<<<<<< HEAD
 .sakura_agileits_contact_grid_right input[type="submit"]:hover{
+=======
+.w3_agileits_contact_grid_right input[type="submit"]:hover{
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 	background:#3399cc;
 }
 /*-- //contact --*/
@@ -2463,10 +2720,17 @@ h3.agileits-icons-title {
 #Awesome h4 {
 	padding: 1.9em 0 0;
 }
+<<<<<<< HEAD
 .sakura_logo_products_left h1 a {
     font-size: 34px;
 }
 .skura_search input[type="search"] {
+=======
+.w3ls_logo_products_left h1 a {
+    font-size: 34px;
+}
+.w3l_search input[type="search"] {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 81%;
 }
 .navbar-nav > li {
@@ -2475,10 +2739,17 @@ h3.agileits-icons-title {
 .nav > li > a {
     padding: 10px 8px !important;
 }
+<<<<<<< HEAD
 .top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-sakura_agile h3, .brands h3 {
     font-size: 2em;
 }
 .sakura_footer_grid h3 {
+=======
+.top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-w3agile h3, .brands h3 {
+    font-size: 2em;
+}
+.w3_footer_grid h3 {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 1.4em;
 }
 .products-right {
@@ -2487,6 +2758,7 @@ h3.agileits-icons-title {
 .snipcart-details {
     width: 81%;
 }
+<<<<<<< HEAD
 h3.sakura_agile_header, h2.sakura_agile_header {
     font-size: 2em;
 }
@@ -2494,6 +2766,15 @@ h3.sakura_agile_header, h2.sakura_agile_header {
     padding: 0 2em 0 6em;
 }
 .agileits_sakura_layouts_map_pos {
+=======
+h3.w3_agile_header, h2.w3_agile_header {
+    font-size: 2em;
+}
+.w3_agileits_contact_grid_right {
+    padding: 0 2em 0 6em;
+}
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 65%;
 }
 .about-team-grids {
@@ -2512,22 +2793,37 @@ h3.sakura_agile_header, h2.sakura_agile_header {
 @media (max-width: 1024px){
 }
 @media (max-width: 991px){
+<<<<<<< HEAD
 .skura_offers p {
     font-size: 14px;
 }
 .skura_offers {
+=======
+.w3l_offers p {
+    font-size: 14px;
+}
+.w3l_offers {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 52%;
 }
 .agile-login {
     padding: 6px 0;
 }
+<<<<<<< HEAD
 .sakura-cart {
+=======
+.w3view-cart {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     height: 36px;
 }
 .agileits_header {
     padding: 12px 0 8px;
 }
+<<<<<<< HEAD
 .sakura_logo_products_left h1 a {
+=======
+.w3ls_logo_products_left h1 a {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 30px;
 }
 i.fa.fa-phone {
@@ -2537,6 +2833,7 @@ i.fa.fa-phone {
 ul.phone_email li {
     font-size: 13px;
 }
+<<<<<<< HEAD
 .skura_logo_products_left1 {
     margin-top: 0;
     width: 38%;
@@ -2546,6 +2843,17 @@ ul.phone_email li {
     margin: 0em 0 0em 0em;
 }
 .skura_search input[type="search"] {
+=======
+.w3ls_logo_products_left1 {
+    margin-top: 0;
+    width: 38%;
+}
+.w3l_search {
+    width: 27%;
+    margin: 0em 0 0em 0em;
+}
+.w3l_search input[type="search"] {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 76%;
 }
 .navbar-default .navbar-nav > li > a {
@@ -2570,7 +2878,11 @@ ul.phone_email li {
 .brands-agile-1 {
     margin: 0;
 }
+<<<<<<< HEAD
 .sakura_layouts-brand {
+=======
+.w3layouts-brand {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: left;
     width: 33.33%;
     margin-bottom: 3%;
@@ -2586,7 +2898,11 @@ ul.phone_email li {
 .footer {
     padding: 3em 0 2em;
 }
+<<<<<<< HEAD
 .sakura_footer_grid {
+=======
+.w3_footer_grid {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: left;
     width: 50%;
     margin-bottom: 1em;
@@ -2601,6 +2917,7 @@ ul.phone_email li {
     padding: 0;
     margin-bottom: 24px;
 }
+<<<<<<< HEAD
 .sakura_agileits_contact_grid_right {
     padding: 0 1em 0 1em;
 	margin-top:2em;
@@ -2610,6 +2927,17 @@ ul.phone_email li {
     width: 38%;
 }
 .about-sakura_imgs {
+=======
+.w3_agileits_contact_grid_right {
+    padding: 0 1em 0 1em;
+	margin-top:2em;
+}
+.agileits_w3layouts_map_pos {
+    right: 6%;
+    width: 38%;
+}
+.about-w3imgs {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: left;
     width: 33.33%;
 }
@@ -2653,7 +2981,11 @@ ul.phone_email li {
 .agileinfo_single h2 {
     font-size: 1.4em;
 }
+<<<<<<< HEAD
 .sakura_agile_description p {
+=======
+.w3agile_description p {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 14px;
     width: 100%;
 }
@@ -2670,7 +3002,11 @@ ul.phone_email li {
 .top-brands {
     padding: 3em 0;
 }
+<<<<<<< HEAD
 p.sakura-ad {
+=======
+p.w3l-ad {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 80%;
 }
 .brands {
@@ -2722,14 +3058,22 @@ ul.paging {
 .about, .about-team, .contact, .codes {
     padding: 3em 0;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos {
+=======
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 45%;
 }
 ul.faq {
     margin-top: 3em;
     padding: 0 1.5em;
 }
+<<<<<<< HEAD
 .faq-sakura_agile {
+=======
+.faq-w3agile {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     padding: 3em 0em;
 }
 .navbar-nav .open .dropdown-menu {
@@ -2748,10 +3092,17 @@ ul.faq {
 #PPMiniCart form {
 	max-height: 185px !important;
 }
+<<<<<<< HEAD
 .skura_offers p {
     font-size: 13px;
 }
 .sakura_logo_products_left h1 a {
+=======
+.w3l_offers p {
+    font-size: 13px;
+}
+.w3ls_logo_products_left h1 a {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 26px;
 }
 .logo_products {
@@ -2795,12 +3146,17 @@ ul.faq {
 .agile-login {
     width: 37%;
 }
+<<<<<<< HEAD
 .skura_offers {
+=======
+.w3l_offers {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 56%;
 }
 .agile-login ul li {
     padding: 0em 0.4em;
 }
+<<<<<<< HEAD
 .skura_logo_products_left1 {
     width: 100%;
     text-align: center;
@@ -2816,6 +3172,23 @@ ul.faq {
     width: 100%;
 }
 .skura_search input[type="search"] {
+=======
+.w3ls_logo_products_left1 {
+    width: 100%;
+    text-align: center;
+}
+.w3ls_logo_products_left {
+    width: 100%;
+    margin: 20px 0;
+}
+.w3ls_logo_products_left h1 a {
+    display: inline-block;
+}
+.w3l_search {
+    width: 100%;
+}
+.w3l_search input[type="search"] {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 92%;
 }
 .logo_products {
@@ -2831,7 +3204,11 @@ ul.faq {
 .agile_top_brands_grids {
     margin-top: 2em;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos {
+=======
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 51%;
 }
 .login-form-grids {
@@ -2852,7 +3229,11 @@ ul.faq {
 #PPMiniCart form {
 	max-height: 400px !important;
 }
+<<<<<<< HEAD
 .skura_offers {
+=======
+.w3l_offers {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 100%;
     text-align: center;
 }
@@ -2917,10 +3298,17 @@ ul.faq {
 .agile-login {
     width: 43%;
 }
+<<<<<<< HEAD
 .skura_search input[type="search"] {
     width: 91%;
 }
 .agileits_sakura_layouts_map_pos {
+=======
+.w3l_search input[type="search"] {
+    width: 91%;
+}
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 58%;
 }
 .about-team-grids {
@@ -2964,7 +3352,11 @@ td.invert-image a img {
 .top_brand_left-1 {
     width: 100%;
 }
+<<<<<<< HEAD
 .sakura_layouts-brand {
+=======
+.w3layouts-brand {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     float: left;
     width: 50%;
     margin-bottom: 3%;
@@ -2972,25 +3364,43 @@ td.invert-image a img {
 .nav-tabs>li>a {
     font-size: 14px;
 }
+<<<<<<< HEAD
 .skura_search input[type="search"] {
+=======
+.w3l_search input[type="search"] {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 90%;
 }
 .agile-login {
     width: 50%;
 }
+<<<<<<< HEAD
 .top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-sakura_agile h3, .brands h3 {
     font-size: 1.7em;
 }
 p.sakura-ad {
+=======
+.top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-w3agile h3, .brands h3 {
+    font-size: 1.7em;
+}
+p.w3l-ad {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 100%;
 }
 .grid_3.grid_5 h5 {
     font-size: 18px;
 }
+<<<<<<< HEAD
 .sakura_footer_grid {
     width: 100%;
 }
 .sakura_footer_grid h3 {
+=======
+.w3_footer_grid {
+    width: 100%;
+}
+.w3_footer_grid h3 {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     margin-bottom: 1em;
 }
 .sorting {
@@ -2999,10 +3409,17 @@ p.sakura-ad {
 .sorting-left {
     width: 42%;
 }
+<<<<<<< HEAD
 h3.sakura_agile_header, h2.sakura_agile_header {
     font-size: 1.7em;
 }
 .agileits_sakura_layouts_map_pos {
+=======
+h3.w3_agile_header, h2.w3_agile_header {
+    font-size: 1.7em;
+}
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
 
     width: 70%;
 }
@@ -3046,10 +3463,17 @@ h3.sakura_agile_header, h2.sakura_agile_header {
 .agile-login {
     width: 61%;
 }
+<<<<<<< HEAD
 .skura_search input[type="search"] {
     width: 87%;
 }
 .sakura_logo_products_left {
+=======
+.w3l_search input[type="search"] {
+    width: 87%;
+}
+.w3ls_logo_products_left {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     margin: 12px 0;
 }
 .ban-text1 h4 {
@@ -3061,7 +3485,11 @@ h3.sakura_agile_header, h2.sakura_agile_header {
 .footer-copy p {
     font-size: 14px;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos {
+=======
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 80%;
 }
 .about-wthree-grids {
@@ -3131,20 +3559,32 @@ span.minicart-price {
 #PPMiniCart .minicart-quantity {
 	font-size: 11px;
 }
+<<<<<<< HEAD
 .skura_offers p {
+=======
+.w3l_offers p {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 12px;
 }
 .agile-login {
     width: 67%;
 }
+<<<<<<< HEAD
 .skura_search input[type="search"] {
     width: 86%;
 }
 .sakura_layouts-foot {
+=======
+.w3l_search input[type="search"] {
+    width: 86%;
+}
+.w3layouts-foot {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
 }
+<<<<<<< HEAD
 .payment-sakura {
     width: 100%;
     text-align: center;
@@ -3153,6 +3593,16 @@ span.minicart-price {
  display:inline-block;
 }
 .agileits_sakura_layouts_map_pos {
+=======
+.payment-w3ls {
+    width: 100%;
+    text-align: center;
+}
+.payment-w3ls img{
+ display:inline-block;
+}
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 90%;
 }
 .about-slid h2 {
@@ -3199,6 +3649,7 @@ span.minicart-price {
 .agile-login {
     width: 79%;
 }
+<<<<<<< HEAD
 .skura_offers p {
     font-size: 10px;
 }
@@ -3212,6 +3663,21 @@ span.minicart-price {
     width: 83%;
 }
 .top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-sakura_agile h3, .brands h3 {
+=======
+.w3l_offers p {
+    font-size: 10px;
+}
+.w3l_offers {
+    padding: 9px 0 5px;
+}
+.w3ls_logo_products_left {
+    margin: 3px 0 12px;
+}
+.w3l_search input[type="search"] {
+    width: 83%;
+}
+.top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-w3agile h3, .brands h3 {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 1.4em;
 }
 .nav-tabs>li>a {
@@ -3220,7 +3686,11 @@ span.minicart-price {
 div#myTabContent {
     padding: 20px 20px;
 }
+<<<<<<< HEAD
 p.sakura-ad {
+=======
+p.w3l-ad {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 13px;
     line-height: 24px;
 }
@@ -3246,7 +3716,11 @@ p.sakura-ad {
 .brands {
     padding: 2em 0;
 }
+<<<<<<< HEAD
 .sakura_layouts-brand {
+=======
+.w3layouts-brand {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     width: 46%;
     padding: 0;
     margin: 2%;
@@ -3263,10 +3737,17 @@ p.sakura-ad {
 .footer {
     padding: 2em 0 1.5em;
 }
+<<<<<<< HEAD
 .sakura_footer_grid h3 {
     font-size: 1.3em;
 }
 .sakura_footer_grid {
+=======
+.w3_footer_grid h3 {
+    font-size: 1.3em;
+}
+.w3_footer_grid {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     padding: 0;
 }
 .sorting-left {
@@ -3288,6 +3769,7 @@ ul.cate ul {
 .about, .about-team, .contact, .codes {
     padding: 2em 0;
 }
+<<<<<<< HEAD
 .agileits_sakura_layouts_map_pos1 {
     padding: 1em;
 }
@@ -3295,12 +3777,25 @@ ul.cate ul {
     padding: 1em;
 }
 .agileits_sakura_layouts_map_pos {
+=======
+.agileits_w3layouts_map_pos1 {
+    padding: 1em;
+}
+.agileits_w3layouts_map_pos {
+    padding: 1em;
+}
+.agileits_w3layouts_map_pos {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     top: 13%;
 }
 .agile_map	iframe {
     min-height: 430px;
 }
+<<<<<<< HEAD
 h3.sakura_agile_header, h2.sakura_agile_header {
+=======
+h3.w3_agile_header, h2.w3_agile_header {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 1.4em;
 }
 .about-agileinfo {
@@ -3325,14 +3820,22 @@ h3.sakura_agile_header, h2.sakura_agile_header {
 .about-team-grids {
     width: 100%;
 }
+<<<<<<< HEAD
 .faq-sakura_agile {
+=======
+.faq-w3agile {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     padding: 2em 0em;
 }
 ul.faq {
     margin-top: 2em;
     padding: 0 1em;
 }
+<<<<<<< HEAD
 .faq-sakura_agile .faq li {
+=======
+.faq-w3agile .faq li {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     margin-top: 1em;
 }
 .faq > li > a {
@@ -3381,6 +3884,7 @@ td.invert-image a img {
 .agileinfo_single h2 {
     font-size: 0.95em;
 }
+<<<<<<< HEAD
 .sakura_agile_description h4 {
     font-size: 0.875em;
 }
@@ -3388,6 +3892,15 @@ td.invert-image a img {
     margin: 1em 0;
 }
 .sakura_agile_description p {
+=======
+.w3agile_description h4 {
+    font-size: 0.875em;
+}
+.w3agile_description {
+    margin: 1em 0;
+}
+.w3agile_description p {
+>>>>>>> ea4375efab5aaf6ef8ac18aa568da6bb34d144b0
     font-size: 13px;
 }
 }
