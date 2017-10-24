@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Super Market Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Super Market Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -19,7 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <!-- //font-awesome icons -->
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
@@ -53,12 +53,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="contact">Help</a></li>
 				</ul>
 			</div>
-			<div class="product_list_header">  
-				<form action="#" method="post" class="last"> 
+			<div class="product_list_header">
+				<form action="#" method="post" class="last">
 					<input type="hidden" name="cmd" value="_cart">
 					<input type="hidden" name="display" value="1">
 					<button class="sakura-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-				</form>  
+				</form>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -67,7 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="skura_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+94) 716 600 520</li>
 				</ul>
 			</div>
 			<div class="sakura_logo_products_left">
@@ -98,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-							</div> 
+							</div>
 							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 								<ul class="nav navbar-nav">
 									<li class="active"><a href="home" class="act">Home</a></li>
@@ -117,8 +117,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<li><a href="groceries"> Mukhwas </a></li>
 														<li><a href="groceries">Rice & Rice Products</a></li>
 													</ul>
-												</div>	
-												
+												</div>
+
 											</div>
 										</ul>
 									</li>
@@ -137,8 +137,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<li><a href="household">Kitchenware</a></li>
 													</ul>
 												</div>
-												
-												
+
+
 											</div>
 										</ul>
 									</li>
@@ -157,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<li><a href="personalcare">Diapers & Wipes</a></li>
 													</ul>
 												</div>
-												
+
 											</div>
 										</ul>
 									</li>
@@ -176,8 +176,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<li><a href="packagedfoods">Chocolates & Sweets</a></li>
 													</ul>
 												</div>
-												
-											
+
+
 											</div>
 										</ul>
 									</li>
@@ -196,7 +196,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<li><a href="beverages">Tea Bags</a></li>
 													</ul>
 												</div>
-							
+
 											</div>
 										</ul>
 									</li>
@@ -208,7 +208,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</nav>
 			</div>
 		</div>
-		
+
 <!-- //navigation -->
 <!-- breadcrumbs -->
 	<div class="breadcrumbs">
@@ -227,20 +227,91 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="about-agileinfo w3layouts">
 				<div class="col-md-8 about-wthree-grids grid-top">
 					<h4>Blanditiis praesentium deleniti atque corrupti quos </h4>
-					<p class="top">Gnissimos voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi. atque corrupti quos dolores et quas molestias excepturi sint occaecat officia deserunt mollitia laborum et dolorum fuga</p>
-					<p>Dignissimos at vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat officia deserunt mollitia laborum et dolorum fuga. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat atque corrupti quos dolores et quas molestias excepturi sint occaecat officia deserunt mollitia laborum et dolorum </p>		
-					<div class="about-w3agilerow">
-						<div class="col-md-4 about-sakura_imgs">
-							<img src="images/p3.jpg" alt="" class="img-responsive zoom-img"/>
-						</div>
-						<div class="col-md-4 about-sakura_imgs">
-							<img src="images/p4.jpg" alt=""  class="img-responsive zoom-img"/>
-						</div>
-						<div class="col-md-4 about-sakura_imgs">
-							<img src="images/p3.jpg" alt=""  class="img-responsive zoom-img"/>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+					<p class="top">	Manjula Janaki commenced her business in 2007, with just Rs. 300/-. She bought 500 grams of gingelly, from which she made a few gingelly rolls and sold among the parents of the children at the montessori where she was then teaching. Located in the picturesque village of Pitakanda in the Ratnapura District, “Sakura Thala” has grown from humble beginnings to become a brand trusted by customers for its superior quality and taste.</br></br>
+												Today, Manjula owns a fully mechanized production facility with 25 full-time female workers. She also has a 12-acre gingelly farm in Monaragala, with 50 farm workers. In addition to providing employment to rural women, Sakura Thala also provides a source of income to local gingelly farmers and kithul treacle tappers in the community.</br></br>
+												Presently, Sakura Thala has gained a loyal customer base in several districts including Ratnapura, Kegalle, Matara, Hambantota and Colombo. By now, 35 employees are working in the company. Manjula is currently nearing completion of a new production facility which would further increase production capacity, uplift quality standards and offer improved facilities for her workers. Her vision is to become a well-recognized, leading manufacturer of quality, nutritious gingelly products in Sri Lanka, with a workforce of 100 by the year 2020.</br></br>
+
+												<h1>Awards</h1>
+
+												<div class="about-agileinfo w3layouts">
+													<ul class="info">
+														<li><i class="fa fa-arrow-right" aria-hidden="true"></i>මිණිපුර කිරුල හොදම විව්යසහයක රන් සම්මානය</br>
+														Minipura Kirula Best Achiever Gold award</br></br></li>
+														<li><i class="fa fa-arrow-right" aria-hidden="true"></i>කුඩ ව්යාපාර අංශයේ ශ්රී ලංකා වානිජ මණ්ඩලය මගින් 2016 වර්ශයේ පලාත් සිංහ සම්මානයේ ලෝකඩ පදක්කම</br>
+														The Sri Lanka Chamber of Commerce's bronze medal was won by the Bronze Medal in the Provincial Lion of the year 2016.</br></br></li>
+														<li><i class="fa fa-arrow-right" aria-hidden="true"></i>2015 වසරේ කාන්තා වානිජ මණ්ඩලයේ හොදම විව්යසායිකාව ජාතික මට්ටමේ රිදී සම්මානය</br>
+														In the Women's Chamber of Commerce in the year 2015, the Best Dealer Award was won by the National Chamber of Commerce.</br></br></li>
+														<li><i class="fa fa-arrow-right" aria-hidden="true"></i>සබරගමුව වණිජ මන්ඩලයේ කුඩා ව්යාපාර අංශයේ හොදම විව්යසායිකාව රිදී සම්මාන</br>
+														Best Business Delegate of the Sabaragamuwa Chamber of Commerce Silver Awards.</br></li>
+													</ul>
+												</div>
+
+											</p>
+
+											<!--banner-bottom-->
+											<div class="ban-bottom-w3l">
+											    <div class="container">
+											        <div class="col-md-6 ban-bottom3">
+											            <div class="ban-top">
+											                <img src="images/p5.jpg" class="img-responsive" alt=""/>
+
+											            </div>
+																	<div class="ban-top">
+											                <img src="images/p10.jpg" class="img-responsive" alt=""/>
+
+											            </div>
+																	<div class="ban-top">
+											                <img src="images/p11.jpg" class="img-responsive" alt=""/>
+
+											            </div>
+											            <div class="ban-img">
+											                <div class=" ban-bottom1">
+											                    <div class="ban-top">
+											                        <img src="images/p6.jpg" class="img-responsive" alt=""/>
+
+											                    </div>
+											                </div>
+											                <div class="ban-bottom2">
+											                    <div class="ban-top">
+											                        <img src="images/p7.jpg" class="img-responsive" alt=""/>
+
+											                    </div>
+											                </div>
+
+											                <div class="clearfix"></div>
+
+											            </div>
+
+											        </div>
+											        <div class="col-md-6 ban-bottom">
+											            <div class="ban-top">
+											                <img src="images/p8.jpg" class="img-responsive" alt=""/>
+
+
+											            </div>
+																	<div class="ban-top">
+											                <img src="images/p9.jpg" class="img-responsive" alt=""/>
+
+
+											            </div>
+																	<div class="ban-top">
+											                <img src="images/p12.jpg" class="img-responsive" alt=""/>
+
+
+											            </div>
+																	<div class="ban-top">
+											                <img src="images/p14.jpg" class="img-responsive" alt=""/>
+
+
+											            </div>
+											        </div>
+
+											        <div class="clearfix"></div>
+											    </div>
+											</div>
+											<!--banner-bottom-->
+
+
 				</div>
 				<div class="col-md-4 about-wthree-grids">
 					<div class="offic-time">
@@ -274,7 +345,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								  $('.events').append("<li>after event fired.</li>");
 								}
 							  });
-						
+
 							});
 						  </script>
 						<div  id="top" class="callbacks_container">
@@ -286,7 +357,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="testi-subscript">
 											<p><a href="#">John Doe,</a>Adipiscing</p>
 											<span class="sakura-agilesub"> </span>
-										</div>	
+										</div>
 									</div>
 								</li>
 								<li>
@@ -296,7 +367,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="testi-subscript">
 											<p><a href="#">elit semper,</a>Dolor Elit</p>
 											<span class="sakura-agilesub"> </span>
-										</div>	
+										</div>
 									</div>
 								</li>
 								<li>
@@ -306,13 +377,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="testi-subscript">
 											<p><a href="#">Amet Doe,</a>Suspendisse</p>
 											<span class="sakura-agilesub"> </span>
-										</div>	
+										</div>
 									</div>
 								</li>
-							</ul>	
+							</ul>
 						</div>
 					</div>
-				</div>	
+				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -321,7 +392,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- about-slid -->
 	<div class="about-slid agileits-sakura_layouts">
 		<div class="container">
-			<div class="about-slid-info"> 
+			<div class="about-slid-info">
 				<h2>Lorem Ipsum is that it has a moreless normal</h2>
 				<p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks on the Internet tend as necessary, making this the first true generator on the Internet embarrassing hidden in the middle of text Lorem Ipsum generators on the Internet tend to repeat predefinedchunks as necessary, making this the first true generator on the.</p>
 			</div>
@@ -329,23 +400,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //about-slid -->
 	<!-- about-team -->
-	<div class="about-team"> 
+	<div class="about-team">
 		<div class="container">
 			<h3 class="sakura_agile_header">Meet Our Team</h3>
 			<div class="team-agileitsinfo">
 				<div class="col-md-3 about-team-grids">
-					<img src="images/t4.jpg" alt=""/>
+					<img src="images/t5.jpg" alt=""/>
 					<div class="team-sakura">
-						<h4><span>ANDERSON,</span> Manager</h4>
+						<h4><span>MAHJULA JANAKI,</span> Manager</h4>
 						<p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
 					</div>
-					<div class="social-icons caption"> 
+					<div class="social-icons caption">
 						<ul>
 							<li><a href="#" class="fa fa-facebook facebook"> </a></li>
 							<li><a href="#" class="fa fa-twitter twitter"> </a></li>
-							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li> 
+							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li>
 						</ul>
-						<div class="clearfix"> </div>  
+						<div class="clearfix"> </div>
 					</div>
 				</div>
 				<div class=" col-md-3 about-team-grids">
@@ -354,28 +425,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4><span>ELIFS,</span> Director</h4>
 						<p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
 					</div>
-					<div class="social-icons caption"> 
+					<div class="social-icons caption">
 						<ul>
 							<li><a href="#" class="fa fa-facebook facebook"> </a></li>
 							<li><a href="#" class="fa fa-twitter twitter"> </a></li>
-							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li> 
+							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li>
 						</ul>
-						<div class="clearfix"> </div>  
+						<div class="clearfix"> </div>
 					</div>
 				</div>
 				<div class="col-md-3 about-team-grids">
 					<img src="images/t1.jpg" alt=""/>
 					<div class="team-w3lstext">
-						<h4><span>JESSICA,</span> Supervisior</h4>				
+						<h4><span>JESSICA,</span> Supervisior</h4>
 						<p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
 					</div>
-					<div class="social-icons caption"> 
+					<div class="social-icons caption">
 						<ul>
 							<li><a href="#" class="fa fa-facebook facebook"> </a></li>
 							<li><a href="#" class="fa fa-twitter twitter"> </a></li>
-							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li> 
+							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li>
 						</ul>
-						<div class="clearfix"> </div>  
+						<div class="clearfix"> </div>
 					</div>
 				</div>
 				<div class="col-md-3 about-team-grids">
@@ -384,13 +455,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4><span>RACKHAM,</span> Staff</h4>
 						<p>Odio dignissimos vero eos voluptatem accusantium doloremque laudantium reader will be distracted.</p>
 					</div>
-					<div class="social-icons caption"> 
+					<div class="social-icons caption">
 						<ul>
 							<li><a href="#" class="fa fa-facebook facebook"> </a></li>
 							<li><a href="#" class="fa fa-twitter twitter"> </a></li>
-							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li> 
+							<li><a href="#" class="fa fa-google-plus googleplus"> </a></li>
 						</ul>
-						<div class="clearfix"> </div>  
+						<div class="clearfix"> </div>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -405,7 +476,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3_footer_grids">
 				<div class="col-md-3 sakura_footer_grid">
 					<h3>Contact</h3>
-					
+
 					<ul class="address">
 						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
@@ -414,7 +485,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-3 sakura_footer_grid">
 					<h3>Information</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="about">About Us</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="contact">Contact Us</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="short-codes">Short Codes</a></li>
@@ -424,7 +495,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-3 sakura_footer_grid">
 					<h3>Category</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="groceries">Groceries</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="household">Household</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="personalcare">Personal Care</a></li>
@@ -434,7 +505,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-3 sakura_footer_grid">
 					<h3>Profile</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products">Store</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="checkout">My Cart</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="login">Login</a></li>
@@ -448,8 +519,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<p>© 2017 Super Market. All rights reserved | Design by Group 38
 			</div>
-		</div>		
-	</div>	
+		</div>
+	</div>
 	<div class="footer-botm">
 			<div class="container">
 				<div class="sakura_layouts-foot">
@@ -466,7 +537,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-<!-- //footer -->	
+<!-- //footer -->
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <!-- top-header and slider -->
@@ -478,12 +549,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
-				easingType: 'linear' 
+				easingType: 'linear'
 				};
 			*/
-								
+
 			$().UItoTop({ easingType: 'easeOutQuart' });
-								
+
 			});
 	</script>
 <!-- //here ends scrolling icon -->
@@ -504,13 +575,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript">
 		jQuery(document).ready(function(){
 			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
-						
+
 			jQuery('#responsive').change(function(){
 			  $('#responsive_wrapper').width(jQuery(this).val());
 			});
-			
+
 		});
-</script>	
-<!-- //main slider-banner --> 
+</script>
+<!-- //main slider-banner -->
 </body>
 </html>
