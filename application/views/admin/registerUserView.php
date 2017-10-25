@@ -14,103 +14,115 @@
                     <div class="col-lg-10">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Add new Product
+                                Register new user
                             </div>
                             <div class="panel-body">
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <?php echo validation_errors('<div class="alert alert-danger alert-dismissable">', ' <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); ?>
+                                    </div>
+                                </div>
+                                <?php
+                                $this->load->helper('form');
+                                $error = $this->session->flashdata('error');
+                                if($error)
+                                {
+                                    ?>
+                                    <div class="alert alert-danger alert-dismissable">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                        <?php echo $error; ?>                    
+                                    </div>
+                                <?php }
+                                $success = $this->session->flashdata('success');
+                                if($success)
+                                {
+                                    ?>
+                                    <div class="alert alert-success alert-dismissable">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                        <?php echo $success; ?>                    
+                                    </div>
+                                <?php } ?>
+                                
                                 <div class="row">
 
-                                	<form role="form">
+                                	<form role="form" method="post" action="<?php echo base_url()?>index.php/AdminController/registerUser">
                                     	<div class="col-xs-12 col-lg-12">
                                         
                                             
-                                            <div class="col-sm-6 col-xs-12">
+                                            <div class="col-sm-4 col-xs-12">
 	                                            <div class="form-group">
-	                                                <label>Title</label>
-	                                                <input class="form-control" placeholder="Enter product name" name="product_title">
+	                                                <label>First name</label>
+	                                                <input class="form-control" placeholder="Enter first name" name="admin_fname" required="">
 	                                            </div>
                                            </div>
 
-                                           <div class="col-sm-6 col-xs-12">
+
+                                            <div class="col-sm-4 col-xs-12">
+	                                            <div class="form-group">
+	                                                <label>Last name</label>
+	                                                <input class="form-control" placeholder="Enter last name" name="admin_lname" >
+	                                            </div>
+                                           </div>
+
+                                           <div class="col-sm-4 col-xs-12">
 	                                           <div class="form-group">
-	                                                <label>Add an image</label>
-	                                                <input type="file" name="product_image">
+	                                                <label>Add a photo</label>
+	                                                <input type="file" name="admin_photo" size="20">
 	                                            </div>
                                             </div>
                                         </div>
-                                           
-                                        <div class="col-xs-12 col-lg-12">
 
-                                           <div class="col-sm-6 col-xs-12">
-                                            <div class="form-group">
-                                                <label>Category</label>
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="catOptions" id="optionsRadios1" value="option1" checked>Gingerly Rolls
-                                                    </label>
+
+                                        <div class="col-xs-12 col-lg-12">
+                                        
+                                            
+                                            <div class="col-sm-3 col-xs-12">
+	                                            <div class="form-group">
+	                                                <label>Contact Number</label>
+	                                                <input class="form-control" placeholder="Enter contact number" name="admin_contact" required="">
+	                                            </div>
+                                           </div>
+
+                                           <div class="col-sm-3 col-xs-12">
+                                                <div class="form-group">
+                                                    <label>NIC Number</label>
+                                                    <input class="form-control" placeholder="Enter NIC" name="admin_nic" required="">
                                                 </div>
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="catOptions" id="optionsRadios2" value="option2">Gingerly Balls
-                                                    </label>
-                                                </div>
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="catOptions" id="optionsRadios3" value="option3">Other
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            </div>
+                                           </div>
+
+
+                                            <div class="col-sm-6 col-xs-12">
+	                                            <div class="form-group">
+	                                                <label>Email</label>
+	                                                <input type='email' class="form-control" placeholder="Enter email" name="admin_email" required="">
+	                                            </div>
+                                           </div>
+
+                                                                                      
                                         </div>
-                                            <!-- <div class="form-group">
-                                                <label>Static Control</label>
-                                                <p class="form-control-static">email@example.com</p>
-                                            </div> -->
-                                           
+
                                         <div class="col-xs-12 col-lg-12">
                                         
                                             
                                             <div class="col-sm-4 col-xs-12">
 	                                            <div class="form-group">
-	                                                <label>Quantity(Weight)</label>
-	                                                <input class="form-control" placeholder="Quantity" name="product_quantity">
+	                                                <label>Password</label>
+	                                                <input type='password' class="form-control" placeholder="Enter password" name="admin_password" required="">
 	                                            </div>
                                            </div>
 
-                                           <div class="col-sm-4 col-xs-12">
+
+                                            <div class="col-sm-4 col-xs-12">
 	                                            <div class="form-group">
-	                                                <label>Price(Rs)</label>
-	                                                <input class="form-control" placeholder="Price" name="product_price">
+	                                                <label>Confirm Password</label>
+	                                                <input type='password' class="form-control" placeholder="Re enter password" name="admin_cpassword" required="">
 	                                            </div>
                                            </div>
 
-                                           <div class="col-sm-4 col-xs-12">
-	                                            <div class="form-group">
-	                                                <label>Discouts(if any)(Rs)</label>
-	                                                <input class="form-control" placeholder="Discount" name="product_discount">
-	                                            </div>
-                                           </div>
-
-                                        </div>
-
-                                        <div class="col-xs-12 col-lg-12">
+                                                                                     
+                                        </div>                                       
                                         
-                                            
-                                            <div class="col-sm-8 col-xs-12">
-	                                            <div class="form-group">
-                                                <label>Description</label>
-                                                <textarea class="form-control" rows="3" name="product_desc"></textarea>
-                                            </div>
-                                           </div>
-
-                                           <div class="col-sm-4 col-xs-12">
-	                                            <div class="form-group">
-	                                                <label>Keyword</label>
-	                                                <input class="form-control" placeholder="Keyword" name="product_key">
-	                                            </div>
-                                           </div>                                          
-
-                                        </div>
-
                                         <div class="col-xs-12 col-lg-12">
 
 	                                         <div class="col-xs-2">
@@ -121,7 +133,8 @@
 	                                			
 	                                			<button type="reset" class="btn btn-primary">Reset</button>
 	                            			</div>
-	                            		</div>                                   
+	                            		</div>  
+                                                                      		                                  
                                             
                                      </form>
                                     </div>

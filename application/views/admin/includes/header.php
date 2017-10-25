@@ -86,7 +86,7 @@
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-user fa-fw"></i> User <b class="caret"></b>
+                            <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION['fname'];?> <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu dropdown-user">
                             <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
@@ -122,7 +122,7 @@
 
                            
                             <li>
-                                <a href="<?php echo base_url()?>index.php/AdminController/addNewProduct"><i class="fa fa-edit fa-fw"></i> Add new item</a>
+                                <a href="<?php echo base_url()?>index.php/PageController/addNewProduct"><i class="fa fa-edit fa-fw"></i> Add new item</a>
                             </li>
 
                             <li>
@@ -188,7 +188,7 @@
                             </li>
 
                             <li>
-                                <a href="<?echo base_url();?>index.php/AdminController/registerUser"><i class="fa fa-edit fa-fw"></i> Register user </a>
+                                <a href="<?php echo base_url()?>index.php/addAdmin"><i class="fa fa-edit fa-fw"></i> Register user </a>
                             </li>
 
 

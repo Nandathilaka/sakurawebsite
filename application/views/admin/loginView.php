@@ -16,7 +16,27 @@
 <body>
   <div class="login-card">
     <h1>Log-in</h1><br>
-  <form>
+
+    
+        <div class="row">
+            <div class="col-md-12">
+                <?php echo validation_errors('<div class="alert alert-danger alert-dismissable">', ' <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); ?>
+            </div>
+        </div>
+        <?php
+        
+        $error = $this->session->flashdata('error');
+
+        if($error)
+        {
+            ?>
+            <div class="alert alert-danger alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <?php echo $error; ?>                    
+            </div>
+        <?php } ?>
+        
+  <form method="post" action="<?php echo base_url()?>index.php/AdminController/logMe">
     <input type="text" name="email" placeholder="Enter email">
     <input type="password" name="password" placeholder="Enter password">
     <input type="submit" name="login" class="login login-submit" value="login">
