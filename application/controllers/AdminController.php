@@ -132,7 +132,7 @@ class AdminController extends CI_Controller{
                 $this->session->set_flashdata('error', 'User creation failed');
             }
             
-            // redirects to addNew method in UserController
+            
             redirect('addAdmin');
 
 
@@ -141,6 +141,7 @@ class AdminController extends CI_Controller{
 		}
 
 	}
+
 
 
 

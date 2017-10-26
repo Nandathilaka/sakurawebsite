@@ -125,18 +125,9 @@
                                 <a href="<?php echo base_url()?>index.php/PageController/addNewProduct"><i class="fa fa-edit fa-fw"></i> Add new item</a>
                             </li>
 
+                            
                             <li>
-                                <a href="#"><i class="fa fa-sitemap fa-fw"></i>Manage items<span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level">
-                                    <li>
-                                        <a href="#">Update item</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Delete item</a>
-                                    </li>
-                                    
-                                </ul>
-                                <!-- /.nav-second-level -->
+                                <a href="<?php echo base_url()?>index.php/PageController/viewProduct"><i class="fa fa-edit fa-fw"></i> Manage items </a>
                             </li>
 
 

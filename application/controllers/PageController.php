@@ -13,6 +13,10 @@ class PageController extends CI_Controller{
 		$this->load->view('admin/addProductView');
 	}
 
+	function viewProduct(){
+		$this->load->view('admin/productView');
+	}
+
 
 	function registerUser(){
 		$this->load->view('admin/registerUserView');
