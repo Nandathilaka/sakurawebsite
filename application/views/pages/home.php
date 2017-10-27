@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Super Market an Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+    <title>Sakura Thala Sweet Shop</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,19 +11,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="<?php echo base_url()?>css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="<?php echo base_url()?>css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- font-awesome icons -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome icons -->
     <!-- js -->
-    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="<?php echo base_url()?>js/jquery-1.11.1.min.js"></script>
     <!-- //js -->
     <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <!-- start-smoth-scrolling -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>js/move-top.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>js/easing.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){
@@ -44,8 +44,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="agile-login">
             <ul>
-                <li><a href="registered"> Create Account </a></li>
-                <li><a href="login">Login</a></li>
+                <li><a href="<?php echo base_url()?>index.php/PageController/createAccount">Create Account</a></li>
+                <li><a href="<?php echo base_url()?>index.php/PageController/login">Login</a></li>
                 <li><a href="contact">Help</a></li>
 
             </ul>
@@ -65,12 +65,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="skura_logo_products_left1">
             <ul class="phone_email">
-                <li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : 033 4 234 567</li>
 
             </ul>
         </div>
         <div class="sakura_logo_products_left">
-            <h1><a href="home">SakuraThala Sweet Shop</a></h1>
+            <h1><a href="home">Sakura Thala Sweet Shop</a></h1>
         </div>
         <div class="skura_search">
             <form action="#" method="post">
@@ -101,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="home" class="act">Home</a></li>
+                    <li class="active"><a href="<?php echo base_url()?>index.php/Welcome" class="act">Home</a></li>
                     <!-- Mega Menu -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
@@ -123,8 +123,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </li>
                     
                     
-                    <li><a href="offers">Offers</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -135,21 +135,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- main-slider -->
 <ul id="demo1">
     <li>
-        <img src="images/slideimg5.jpg" alt="" />
+        <img src="<?php echo base_url()?>images/slideimg5.jpg" alt="" />
         <!--Slider Description example-->
         <div class="slide-desc">
             <h3>Real Taste</h3>
         </div>
     </li>
     <li>
-        <img src="images/slideimg4.jpg" alt="" />
+        <img src="<?php echo base_url()?>images/slideimg4.jpg" alt="" />
         <div class="slide-desc">
             <h3>Live healthy !!! Eat  healthy !!!</h3>
         </div>
     </li>
 
     <li>
-        <img src="images/slideimg2.jpg" alt="" />
+        <img src="<?php echo base_url()?>images/slideimg2.jpg" alt="" />
         <div class="slide-desc">
             <h3>Enjoy our offers</h3>
         </div>
@@ -160,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- top-brands -->
 <div class="top-brands">
     <div class="container">
-        <h2>Top selling offers</h2>
+        <h2>Our Products</h2>
         <div class="grid_3 grid_5">
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
                 <ul id="myTab" class="nav nav-tabs" role="tablist">
@@ -185,8 +185,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <figure>
                                                 <div class="snipcart-item block" >
                                                     <div class="snipcart-thumb">
-                                                        <a href="products"><img title=" " alt=" " src="images/1.png" /></a>
-                                                        <p>Tata-salt</p>
+                                                        <a href="products"><img title=" " alt=" " src="<?php echo base_url()?>images/thala1.png" /></a>
+                                                        <p><?php echo $title ;?></p>
                                                         <div class="stars">
                                                             <i class="fa fa-star blue-star" aria-hidden="true"></i>
                                                             <i class="fa fa-star blue-star" aria-hidden="true"></i>
@@ -194,17 +194,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                             <i class="fa fa-star blue-star" aria-hidden="true"></i>
                                                             <i class="fa fa-star gray-star" aria-hidden="true"></i>
                                                         </div>
-                                                        <h4>$20.99 <span>$35.00</span></h4>
+                                                        <!-- <h4>$20.99 <span><?php echo $price ;?></span></h4> -->
+                                                        <h4><?php echo "Rs.".$price ;?></h4>
                                                     </div>
+                                                    
+
                                                     <div class="snipcart-details top_brand_home_details">
                                                         <form action="#" method="post">
                                                             <fieldset>
                                                                 <input type="hidden" name="cmd" value="_cart" />
                                                                 <input type="hidden" name="add" value="1" />
                                                                 <input type="hidden" name="business" value=" " />
-                                                                <input type="hidden" name="item_name" value="Fortune Sunflower Oil" />
-                                                                <input type="hidden" name="amount" value="20.99" />
-                                                                <input type="hidden" name="discount_amount" value="1.00" />
+                                                                <input type="hidden" name="item_name" value="<?php echo $title ;?>" />
+                                                                <input type="hidden" name="amount" value="<?php echo "Rs.".$price ;?>" />
+                                                                <input type="hidden" name="discount_amount" value="<?php echo "Rs.".$discount ;?>" />
                                                                 <input type="hidden" name="currency_code" value="USD" />
                                                                 <input type="hidden" name="return" value=" " />
                                                                 <input type="hidden" name="cancel_return" value=" " />
@@ -218,7 +221,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     </div>
                                 </div>
                             </div>
-                           
+                       <!--     
                             <div class="col-md-4 top_brand_left">
                                 <div class="hover14 column">
                                     <div class="agile_top_brand_left_grid">
@@ -229,7 +232,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <figure>
                                                 <div class="snipcart-item block" >
                                                     <div class="snipcart-thumb">
-                                                        <a href="products"><img title=" " alt=" " src="images/8.png" /></a>
+                                                        <a href="products"><img title=" " alt=" " src="<?php echo base_url()?>images/8.png" /></a>
                                                         <p>Milky-mist-paneer</p>
                                                         <div class="stars">
                                                             <i class="fa fa-star blue-star" aria-hidden="true"></i>
@@ -273,7 +276,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <figure>
                                                 <div class="snipcart-item block">
                                                     <div class="snipcart-thumb">
-                                                        <a href="products"><img src="images/3.png" alt=" " class="img-responsive" /></a>
+                                                        <a href="products"><img src="<?php echo base_url()?>images/3.png" alt=" " class="img-responsive" /></a>
                                                         <p>Aashirvaad-atta</p>
                                                         <div class="stars">
                                                             <i class="fa fa-star blue-star" aria-hidden="true"></i>
@@ -305,7 +308,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="clearfix"> </div>
                         </div>
                         
@@ -388,9 +391,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h3>Contact</h3>
 
                 <ul class="address">
-                    <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-                    <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-                    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
+                    <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i></li>
+                    <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="#">info@example.com</a></li>
+                    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i></li>
                 </ul>
             </div>
             <div class="col-md-3 sakura_footer_grid">
@@ -424,7 +427,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="footer-copy">
 
         <div class="container">
-            <p>© 2017 Super Market. All rights reserved | Design by Group 38
+            <p>© 2017 Super Market. All rights reserved | Design by Group 15
         </div>
     </div>
 
@@ -467,7 +470,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     });
 </script>
 <!-- //here ends scrolling icon -->
-<script src="js/minicart.min.js"></script>
+<script src="<?php echo base_url()?>js/minicart.min.js"></script>
 <script>
     // Mini Cart
     paypal.minicart.render({
@@ -479,8 +482,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     }
 </script>
 <!-- main slider-banner -->
-<script src="js/skdslider.min.js"></script>
-<link href="css/skdslider.css" rel="stylesheet">
+<script src="<?php echo base_url()?>js/skdslider.min.js"></script>
+<link href="<?php echo base_url()?>css/skdslider.css" rel="stylesheet">
 <script type="text/javascript">
     jQuery(document).ready(function(){
         jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});

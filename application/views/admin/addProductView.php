@@ -18,23 +18,53 @@
                                 Add new Product
                             </div>
                             <div class="panel-body">
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <?php echo validation_errors('<div class="alert alert-danger alert-dismissable">', ' <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button></div>'); ?>
+                                    </div>
+                                </div>
+                                <?php
+                                $this->load->helper('form');
+                                $error = $this->session->flashdata('error');
+                                if($error)
+                                {
+                                    ?>
+                                    <div class="alert alert-danger alert-dismissable">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                        <?php echo $error; ?>                    
+                                    </div>
+                                <?php }
+                                $success = $this->session->flashdata('success');
+                                if($success)
+                                {
+                                    ?>
+                                    <div class="alert alert-success alert-dismissable">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                        <?php echo $success; ?>                                       
+                                        <?php echo "                               "?>
+                                        <button type="submit" class="btn btn-success" onclick="location.href='<?php echo base_url();?>index.php/PageController/viewProduct'">View the product</button>                  
+                                    </div>
+
+                                <?php } ?>
+
                                 <div class="row">
 
-                                	<form role="form">
+                                	<form role="form" method="POST" action="<?php echo base_url()?>index.php/ProductController/addNewProduct">
                                     	<div class="col-xs-12 col-lg-12">
                                         
                                             
                                             <div class="col-sm-6 col-xs-12">
 	                                            <div class="form-group">
 	                                                <label>Title</label>
-	                                                <input class="form-control" placeholder="Enter product name" name="product_title">
+	                                                <input class="form-control" placeholder="Enter product name" name="product_title" maxlength="40">
 	                                            </div>
                                            </div>
 
                                            <div class="col-sm-6 col-xs-12">
 	                                           <div class="form-group">
 	                                                <label>Add an image</label>
-	                                                <input type="file" name="product_image">
+	                                                <input type="file" name="userfile">
 	                                            </div>
                                             </div>
                                         </div>
@@ -46,17 +76,17 @@
                                                 <label>Category</label>
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="catOptions" id="optionsRadios1" value="option1" checked>Gingerly Rolls
+                                                        <input type="radio" name="catOptions" id="optionsRadios1" value="1" checked>Gingerly Rolls
                                                     </label>
                                                 </div>
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="catOptions" id="optionsRadios2" value="option2">Gingerly Balls
+                                                        <input type="radio" name="catOptions" id="optionsRadios2" value="2">Gingerly Balls
                                                     </label>
                                                 </div>
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="catOptions" id="optionsRadios3" value="option3">Other
+                                                        <input type="radio" name="catOptions" id="optionsRadios3" value="3">Other
                                                     </label>
                                                 </div>
                                             </div>

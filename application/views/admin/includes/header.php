@@ -86,7 +86,7 @@
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION['fname'];?> <b class="caret"></b>
+                            <i class="fa fa-user fa-fw"></i> <?php echo $this->session->userdata('fname')?>  <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu dropdown-user">
                             <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
@@ -127,7 +127,7 @@
 
                             
                             <li>
-                                <a href="<?php echo base_url()?>index.php/PageController/viewProduct"><i class="fa fa-edit fa-fw"></i> Manage items </a>
+                                <a href="<?php echo base_url()?>index.php/ProductController/viewProducts"><i class="fa fa-edit fa-fw"></i> Manage items </a>
                             </li>
 
 

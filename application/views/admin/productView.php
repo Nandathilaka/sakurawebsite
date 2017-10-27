@@ -31,12 +31,37 @@
                                                 <th>Descrption</th>
                                                 <th>Key</th>
                                                 <th>Added Date,Time</th>
+                                                <th class="text-center">Actions</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr class="odd gradeX">
-                                                
-                                            </tr>
+                                             </tr>
+						                    <?php
+						                    if(!empty($productRecords))
+						                    {
+						                        foreach($productRecords as $record)
+						                        {
+						                    ?>
+						                    <tr>
+						                      <td><?php echo $record->product_id ?></td>
+						                      <td><?php echo $record->product_title ?></td>
+						                      <td><?php echo $record->product_image ?></td>
+						                      <td><?php echo $record->category_id ?></td>
+						                      <td><?php echo $record->product_quantity ?></td>
+						                      <td><?php echo $record->product_price ?></td>
+						                      <td><?php echo $record->product_discount ?></td>
+						                      <td><?php echo $record->product_desc ?></td>
+						                      <td><?php echo $record->product_key ?></td>
+						                      <td><?php echo $record->product_addedDtm ?></td>
+						                      <td class="text-center">
+						                          <a class="btn btn-sm btn-info" href="<?php echo base_url()?>index.php/ProductController/displayProducts/<?php echo $record->product_id ?>"><i class="fa fa-pencil"></i></a>
+						                          <a class="btn btn-sm btn-danger deleteUser" href="#" data-userid="<?php echo $record->product_id; ?>"><i class="fa fa-trash"></i></a>
+						                      </td>
+						                    </tr>
+						                    <?php
+						                        }
+						                    }
+						                    ?>
                                             
                                         </tbody>
                                     </table>

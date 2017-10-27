@@ -55,8 +55,17 @@ $route['translate_uri_dashes'] = FALSE;
 
 // user defined routes
 $route['admin'] = 'AdminController';
+
 $route['addAdmin'] = 'PageController/registerUser';
+
+$route['addProduct'] = 'PageController/addNewProduct';
 
 $route['displayHome'] = 'PageController/displayHome';
 
 $route['adminLogOut'] = 'AdminController/logOut';
+$route['registered'] = 'PageController/createAccount';
+$route['login'] = 'PageController/login';
+
+$route['home'] = "Welcome";
+
+
