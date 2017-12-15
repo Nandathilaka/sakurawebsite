@@ -45,7 +45,8 @@
 						                    <tr>
 						                      <td><?php echo $record->product_id ?></td>
 						                      <td><?php echo $record->product_title ?></td>
-						                      <td><?php echo $record->product_image ?></td>
+						                      <!-- <td><?php echo $record->product_image ?></td> -->
+                                              <td><img src="<?php echo base_url('uploads/images/').$record->product_image;?>" /> </td>
 						                      <td><?php echo $record->category_id ?></td>
 						                      <td><?php echo $record->product_quantity ?></td>
 						                      <td><?php echo $record->product_price ?></td>
