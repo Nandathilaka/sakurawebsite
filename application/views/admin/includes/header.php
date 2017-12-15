@@ -130,11 +130,11 @@
                                 <a href="<?php echo base_url()?>index.php/ProductController/viewProducts"><i class="fa fa-edit fa-fw"></i> Manage items </a>
                             </li>
 
-
+<!-- 
                             <li>
                                 <a href="#"><i class="fa fa-edit fa-fw"></i> View Sales </a>
                             </li>
-                            
+                             -->
                            
                             <li>
                                 <a href="#"><i class="fa fa-sitemap fa-fw"></i> View Orders<span class="fa arrow"></span></a>
@@ -153,12 +153,15 @@
                             <li>
                                 <a href="#"><i class="fa fa-sitemap fa-fw"></i>Customers<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
+
+                                     <li>
+                                        <a href="#">Manage customers</a>
+                                    </li>
+                                    
                                     <li>
                                         <a href="#">Send notification</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Manage customers</a>
-                                    </li>
+                                   
                                     
                                 </ul>
                                 <!-- /.nav-second-level -->
