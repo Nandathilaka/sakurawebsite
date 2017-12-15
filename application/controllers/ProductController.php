@@ -4,10 +4,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class ProductController extends CI_Controller{
 
 
+			/**
+	     * This is default constructor of the class
+	     */
+		public function __construct(){
+			parent::__construct();
+			$this->load->model('productModel');
+			
+		}
+
+
 		function addNewProduct(){
 		
 			$this->form_validation->set_rules('product_title','product_title','required|max_length[40]|is_unique[products.product_title]');
-			$this->form_validation->set_rules('userfile','product_image','');
+			// $this->form_validation->set_rules('userfile','product_image','');
 			$this->form_validation->set_rules('catOptions','category','required');
 			$this->form_validation->set_rules('product_quantity','product_quantity','required');		
 			$this->form_validation->set_rules('product_price','product_price','required');
@@ -62,7 +72,7 @@ class ProductController extends CI_Controller{
 									'product_addedDtm' => date('Y-m-d H:i:s'),
 									);
 
-				$this->load->model('productModel');
+				
 
 				$res = $this->productModel->insertProduct($productInfo);
 
@@ -94,9 +104,7 @@ class ProductController extends CI_Controller{
 
 	//this method listss the products in the database
 
-	function viewProducts(){
-
-		$this->load->model('productModel');
+	function viewProducts(){		
 
 		$data['productRecords'] = $this->productModel->listProducts();
 
@@ -105,26 +113,52 @@ class ProductController extends CI_Controller{
 
 	//display in the web site
 
-	function displayProducts(){
+	// function displayProducts(){
 
-		$data_id = $this->uri->segment(3);
-		$this->load->model('productModel');
+	// 	$data_id = $this->uri->segment(3);
+	// 	$this->load->model('productModel');
 
-		$res = $this->productModel->getDetails($data_id);
+	// 	$res = $this->productModel->getDetails($data_id);
 
-		if($res){
+	// 	if($res){
 
-			$productArray = array('title' => $res[0]->product_title,
-									'price' => $res[0] ->product_price,
-									'quantity' =>$res[0] ->product_quantity,
-									'discount' =>$res[0] ->product_discount,
-									);
+	// 		$productArray = array('title' => $res[0]->product_title,
+	// 								'price' => $res[0] ->product_price,
+	// 								'quantity' =>$res[0] ->product_quantity,
+	// 								'discount' =>$res[0] ->product_discount,
+	// 								);
+	// 	}
+
+
+	// 	//$this->load->view("pages/home",$productArray);
+		
+
+	// }
+
+
+	function removeProduct($id){
+
+		$product_id = $id;
+
+		if($product_id){
+			$res = $this->productModel->removeProduct($product_id);
 		}
 
+		if($res>0)
+				 {
+	                $this->session->set_flashdata('success', 'Successfully deleted');
+	            }
+	            else
+	            {
+	                $this->session->set_flashdata('error', 'Product deletion failed');
+	            }
 
-		//$this->load->view("pages/home",$productArray);
+	    redirect('viewProducts');
+
+
+		}
 
 		
 
-	}
+
 }
