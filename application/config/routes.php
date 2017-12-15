@@ -60,10 +60,14 @@ $route['addAdmin'] = 'PageController/registerUser';
 
 $route['addProduct'] = 'PageController/addNewProduct';
 
+$route['viewProducts'] = 'ProductController/viewProducts';
+
 $route['displayHome'] = 'PageController/displayHome';
 
 $route['adminLogOut'] = 'AdminController/logOut';
+
 $route['registered'] = 'PageController/createAccount';
+
 $route['login'] = 'PageController/login';
 
 $route['home'] = "Welcome";
