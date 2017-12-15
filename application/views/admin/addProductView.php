@@ -50,7 +50,7 @@
 
                                 <div class="row">
 
-                                	<form role="form" method="POST" action="<?php echo base_url()?>index.php/ProductController/addNewProduct">
+                                	<form role="form" method="POST" enctype="multipart/form-data" action="<?php echo base_url()?>index.php/ProductController/addNewProduct">
                                     	<div class="col-xs-12 col-lg-12">
                                         
                                             
@@ -64,7 +64,7 @@
                                            <div class="col-sm-6 col-xs-12">
 	                                           <div class="form-group">
 	                                                <label>Add an image</label>
-	                                                <input type="file" name="userfile">
+	                                                <input type="file" name="picture">
 	                                            </div>
                                             </div>
                                         </div>
