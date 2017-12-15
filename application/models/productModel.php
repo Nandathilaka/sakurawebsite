@@ -19,12 +19,12 @@ class productModel extends CI_Model{
 	//this method returns the product info in the database
 	function listProducts(){
 
-		$this->db->select('product_id,product_title,product_image,category_id,product_quantity,product_price,product_discount,product_desc,product_key,product_addedDtm');
-        $this->db->from('products');
-        $query = $this->db->get();
-        
-        $result = $query->result();        
-        return $result;
+		$this->db->select('product_id,product_title,product_image,category_id,product_quantity,product_price,product_discount,product_desc,product_key,product_addedDtm,product_sales');
+                $this->db->from('products');
+                $query = $this->db->get();
+                
+                $result = $query->result();        
+                return $result;
 	}
 
 
@@ -45,6 +45,15 @@ class productModel extends CI_Model{
                 
                 $product = $query->result();
                 return $product;
+
+        }
+
+
+        //this function deletes the product details from the db when the product id is given
+        function removeProduct($product_id){
+
+                $res = $this->db->delete('products', array('product_id' => $product_id)); 
+                return $res;
 
         }
 
