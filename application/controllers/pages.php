@@ -8,6 +8,14 @@ class Pages extends CI_Controller{
         }
         $this->load->view('pages/'.$page);
     }
+
+    public function login(){
+        $this->load->view('pages/login');
+    }
+
+    public function register(){
+        $this->load->view('page/registered');
+    }
 }
 
 ?>
