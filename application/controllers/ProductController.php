@@ -6,43 +6,41 @@ class ProductController extends CI_Controller{
 
 		function addNewProduct(){
 		
-		$this->form_validation->set_rules('product_title','product_title','required|max_length[40]|is_unique[products.product_title]');
-		$this->form_validation->set_rules('userfile','product_image','');
-		$this->form_validation->set_rules('catOptions','category','required');
-		$this->form_validation->set_rules('product_quantity','product_quantity','required');		
-		$this->form_validation->set_rules('product_price','product_price','required');
-		$this->form_validation->set_rules('product_discount','product_discount','');
-		$this->form_validation->set_rules('product_desc','product_desc','');
-		$this->form_validation->set_rules('product_key','product_key','required');
-		
+			$this->form_validation->set_rules('product_title','product_title','required|max_length[40]|is_unique[products.product_title]');
+			$this->form_validation->set_rules('userfile','product_image','');
+			$this->form_validation->set_rules('catOptions','category','required');
+			$this->form_validation->set_rules('product_quantity','product_quantity','required');		
+			$this->form_validation->set_rules('product_price','product_price','required');
+			$this->form_validation->set_rules('product_discount','product_discount','');
+			$this->form_validation->set_rules('product_desc','product_desc','');
+			$this->form_validation->set_rules('product_key','product_key','required');
+			
 
 		if($this->form_validation->run()==TRUE){
 
-				
+				//Check whether user upload picture
+	            if(!empty($_FILES['picture']['name'])){
+	                $config['upload_path'] = 'uploads/images/';
+	                $config['allowed_types'] = 'jpg|jpeg|png|gif';
+	                $config['file_name'] = $_FILES['picture']['name'];
+	                
+	                //Load upload library and initialize configuration
+	                $this->load->library('upload',$config);
+	                $this->upload->initialize($config);
+	                
+	                if($this->upload->do_upload('picture')){
+	                    $uploadData = $this->upload->data();
+	                    $picture = $uploadData['file_name'];
+	                }else{
+	                    $picture = '';
+	                }
+	            }else{
+	                $picture = '';
+	            }
 
-				// $config['upload_path'] = './images/';
-		  //       $config['allowed_types'] = 'gif|jpg|png';
-		  //       $config['max_size'] = '100000';
-		  //       $config['max_width']  = '10240';
-		  //       $config['max_height']  = '7680';
-
-		  //       $this->load->library('upload', $config);
-
-		  //       if ( ! $this->upload->do_upload('userfile'))       //you forgot this
-		  //       {
-		  //           $error = array('error' => $this->upload->display_errors());
-
-		  //           $this->load->view('admin/addProductView', $error);
-		  //       }
-		  //       else
-		  //       {
-		            // $productInfo = array('upload_data' => $this->upload->data());
-		            // // print_r($this->upload->data());
-		            // $datafoto=$this->upload->data();
-		            // $product_image = time().$datafoto['orig_name'];
 
 				$product_title = $this->input->post('product_title');
-				$product_image = $this->input->post('product_image');
+				// $product_image = $this->input->post('product_image');
 				$product_category = $this->input->post('catOptions');
 				$product_quantity = $this->input->post('product_quantity');
 				$product_price = $this->input->post('product_price');
@@ -50,8 +48,11 @@ class ProductController extends CI_Controller{
 				$product_desc = $this->input->post('product_desc');
 				$product_key = $this->input->post('product_key');
 
+
+				//Prepare array of user data
+
 				$productInfo = array('product_title' => $product_title,
-									'product_image' => $product_image,
+									'product_image' => $picture,
 									'category_id' => $product_category,
 									'product_quantity' => $product_quantity,
 									'product_price' => $product_price,
