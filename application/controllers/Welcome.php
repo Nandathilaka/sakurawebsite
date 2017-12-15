@@ -7,15 +7,8 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->model('productModel');
-		$res = $this->productModel->getDetails();
-		if($res){
-
-			$productArray = array('title' => $res[0]->product_title,
-									'price' => $res[0] ->product_price,
-									'quantity' =>$res[0] ->product_quantity,
-									'discount' =>$res[0] ->product_discount,
-									);
-		}
-		$this->load->view('pages/home',$productArray);
+		$res['products'] = $this->productModel->getDetails();
+		
+		$this->load->view('pages/home',$res);
 	}
 }
