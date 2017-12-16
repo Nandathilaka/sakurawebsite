@@ -43,7 +43,7 @@
                                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                                         <?php echo $success; ?>                                       
                                         <?php echo "                               "?>
-                                        <button type="submit" class="btn btn-success" onclick="location.href='<?php echo base_url();?>index.php/PageController/viewProduct'">View the product</button>                  
+                                        <button type="submit" class="btn btn-success" onclick="location.href='<?php echo base_url();?>index.php/PageController/viewLastProduct'">View the product</button>                  
                                     </div>
 
                                 <?php } ?>
