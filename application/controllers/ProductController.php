@@ -85,11 +85,8 @@ class ProductController extends CI_Controller{
 	                $this->session->set_flashdata('error', 'Product insertion failed');
 	            }
 
-	        redirect('addProduct');
-
-	    	
+	        redirect('addProduct');    	
             
-
 		}
 		else
 		{
@@ -111,31 +108,17 @@ class ProductController extends CI_Controller{
 		$this->load->view('admin/productView',$data);
 	}
 
-	//display in the web site
+	//this method lists the details of last added product
+	function viewLastProduct(){		
 
-	// function displayProducts(){
+		$data['productRecords'] = $this->productModel->getProduct();
 
-	// 	$data_id = $this->uri->segment(3);
-	// 	$this->load->model('productModel');
+		$this->load->view('admin/productView',$data);
+	}
 
-	// 	$res = $this->productModel->getDetails($data_id);
+	
 
-	// 	if($res){
-
-	// 		$productArray = array('title' => $res[0]->product_title,
-	// 								'price' => $res[0] ->product_price,
-	// 								'quantity' =>$res[0] ->product_quantity,
-	// 								'discount' =>$res[0] ->product_discount,
-	// 								);
-	// 	}
-
-
-	// 	//$this->load->view("pages/home",$productArray);
-		
-
-	// }
-
-
+	//this function deletes a product given by its id
 	function removeProduct($id){
 
 		$product_id = $id;
