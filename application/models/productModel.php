@@ -27,8 +27,6 @@ class productModel extends CI_Model{
                 return $result;
 	}
 
-
-
         //return details of products
 
         function getDetails($id=""){
@@ -49,12 +47,21 @@ class productModel extends CI_Model{
         }
 
 
+
+
         //this function deletes the product details from the db when the product id is given
         function removeProduct($product_id){
 
                 $res = $this->db->delete('products', array('product_id' => $product_id)); 
                 return $res;
 
+        }
+
+        //gets the product details of the last inserted product
+        function getProduct(){
+                $query = $this->db->query("select * from products where product_id=(SELECT MAX(product_id) FROM products)");
+                $res = $query->result();
+                return $res;
         }
 
 }
