@@ -34,22 +34,32 @@ class UserControll extends CI_Controller {
         $this->form_validation->set_rules('pwd', 'Password', 'trim|min_length[8]|max_length[10]');
 
         if($this->form_validation->run() == false){
+
             $this->load->view('pages/login');
         }else{
-            $this->load->model('UserModel');
-            $response = $this->UserModel->loginUser();
 
-            if (!$response){
+            $username = $this->input->post('email');
+            $password = sha1($this->input->post('pwd'));
+
+            $this->load->model('UserModel');
+
+           $userInfo['username'] = $username;
+           $userInfo['password'] = $password; 
+
+            $response = $this->UserModel->loginUser($userInfo);
+
+            if ($response){
                 $user_data = array(
-                    'user_id' => $response->regId,
-                    'fname' => $response->firstName,
-                    'lname' => $response->lastName,
-                    'email' => $response->userName,
-                    'password' => $response->password,
+                    'user_id' => $response[0]->regId,
+                    'fname' => $response[0]->firstName,
+                    'lname' => $response[0]->lastName,
+                    'email' => $response[0]->userName,                    
                     'logged_in' => TRUE
                 );
 
                 $this->session->set_userdata($user_data);
+                
+
                redirect('home');
 
             }else{
@@ -68,6 +78,7 @@ class UserControll extends CI_Controller {
         $this->session->unset_userdata('email');
         $this->session->unset_userdata('password');
         $this->session->unset_userdata('logged_in');
+        
         redirect('login');
     }
 }

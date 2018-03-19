@@ -7,8 +7,7 @@
         </div>
         <div class="agile-login">
             <ul>
-                <li><a href="<?php echo base_url()?>index.php/PageController/createAccount"> Create Account </a></li>
-                <li><a href="<?php echo base_url()?>index.php/PageController/login">Login</a></li>
+                 <li><a href="<?php echo base_url()?>index.php/UserControll/logoutUser">LogOut</a></li>
                 <li><a href="contact">Help</a></li>
 
 
@@ -65,7 +64,7 @@
         </div>
         <div class="skura_search">
             <form action="<?php echo base_url()?>index.php/Welcome/search_keyword" >
-                <input type="search" id="search" name=search" placeholder="Search for a Product..." required="">
+                <input type="search" id="search" name=earch" placeholder="Search for a Product..." required="">
                 <button type="submit" class="btn btn-default search" aria-label="Left Align">
                     <i class="fa fa-search" aria-hidden="true"> </i>
                 </button>

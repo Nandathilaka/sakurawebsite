@@ -19,6 +19,11 @@ class PageController extends CI_Controller{
 	function addNewProduct(){
 		$this->load->view('admin/addProductView');
 	}
+	
+	function displayCheckout(){
+		$this->load->view('pages/checkout');
+	}
+
 
 	function viewLastProduct(){
 
@@ -52,6 +57,15 @@ class PageController extends CI_Controller{
 		$this->load->view('pages/registered');
 	}
 
+	function contacttUs(){
+	    $this->load->view('pages/contact');
+    }
+    function aboutUs(){
+	    $this->load->view('pages/about');
+    }
+    function home(){
+        $this->load->view('pages/home');
+    }
 	
 
 }

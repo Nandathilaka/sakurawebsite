@@ -65,12 +65,12 @@
 	                                            </div>
                                            </div>
 
-                                           <div class="col-sm-4 col-xs-12">
+                                           <!-- <div class="col-sm-4 col-xs-12">
 	                                           <div class="form-group">
 	                                                <label>Add a photo</label>
-	                                                <input type="file" name="admin_photo" size="20">
+	                                                <input type="file" name="picture" >
 	                                            </div>
-                                            </div>
+                                            </div> -->
                                         </div>
 
 

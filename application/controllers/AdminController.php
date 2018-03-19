@@ -45,6 +45,8 @@ class AdminController extends CI_Controller{
 			$this->index();
 			
 		}else{
+
+
 				
 			$email = $_POST['email'];
 			$password = $_POST['password'];
@@ -62,16 +64,14 @@ class AdminController extends CI_Controller{
 			if($res){
 
 
-				$sessionArray = array('email' =>$res[0]->admin_email,
-										'id' =>$res[0]->admin_id,
-										'contact' =>$res[0]->admin_contact,
-										'fname' =>$res[0]->admin_fname,
-										'nic' =>$res[0]->admin_nic,										
-										'isLoggedIn' => true );
+				$sessionArray = array("email" =>$res[0]->admin_email,
+										"id" =>$res[0]->admin_id,
+										"contact" =>$res[0]->admin_contact,
+										"fname" =>$res[0]->admin_fname,
+										"nic" =>$res[0]->admin_nic,										
+										"isLoggedIn" => true );
 
 				$this->session->set_userdata($sessionArray);
-
-				
 
 				redirect('displayHome');
 
@@ -96,7 +96,7 @@ class AdminController extends CI_Controller{
 
 		$this->form_validation->set_rules('admin_fname','Admin first name','required');
 		$this->form_validation->set_rules('admin_lname','Admin last name','');
-		$this->form_validation->set_rules('admin_photo','Admin photo','');
+		// $this->form_validation->set_rules('admin_photo','Admin photo','');
 		$this->form_validation->set_rules('admin_contact','Admin contact number','trim|required');
 		$this->form_validation->set_rules('admin_nic','Admin NIC number','trim|required');
 		$this->form_validation->set_rules('admin_email','Admin email','trim|required|valid_email|is_unique[admins.admin_email]');
@@ -106,9 +106,31 @@ class AdminController extends CI_Controller{
 
 		if($this->form_validation->run()==TRUE){
 
+
+			//Check whether user upload picture
+	        if(!empty($_FILES['picture']['name'])){
+	            $config['upload_path'] = 'uploads/images/admins/';
+	            $config['allowed_types'] = 'jpg|jpeg|png|gif';
+	            $config['file_name'] = $_FILES['picture']['name'];
+	            
+	            //Load upload library and initialize configuration
+	            $this->load->library('upload',$config);
+	            $this->upload->initialize($config);
+	            
+	            if($this->upload->do_upload('picture')){
+	                $uploadData = $this->upload->data();
+	                $picture = $uploadData['file_name'];
+	            }else{
+	                $picture = '';
+	            }
+	        }else{
+	            $picture = '';
+	        }
+
+			
 			$admin_fname = $this->input->post('admin_fname');
 			$admin_lname = $this->input->post('admin_lname');
-			$admin_photo = $this->input->post('admin_photo');
+			// $picture = $this->input->post('picture');
 			$admin_contact = $this->input->post('admin_contact');
 			$admin_nic = $this->input->post('admin_nic');
 			$admin_email = $this->input->post('admin_email');
@@ -120,13 +142,13 @@ class AdminController extends CI_Controller{
 							 'admin_contact'=>$admin_contact,
 							 'admin_nic'=> $admin_nic,							 
 							 'admin_password'=>$admin_password,
-							 'admin_photo'=>$admin_photo,  
+							 'admin_photo'=>$picture,  
 							 'admin_email'=>$admin_email,                            
                              'admin_createdDtm'=>date('Y-m-d H:i:s'),
-                             'admin_createdBy'=>'1',
+                             'admin_createdBy'=>$this->session->userData('id'),
                              );
 
-			$this->load->model('adminModel');
+			
 
             $result = $this->adminModel->registerNewUser($userInfo);
             

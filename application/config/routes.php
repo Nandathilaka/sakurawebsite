@@ -70,6 +70,17 @@ $route['registered'] = 'PageController/createAccount';
 
 $route['login'] = 'PageController/login';
 
+$route['products'] = "products";
+
+$route['product-add-to-cart'] = "ProductController/addToCart";
+
+$route['shopping-cart-view'] = "ProductController/shoppingCartView";
+
+$route['save-shopping-cart'] = "ProductController/saveCartProducts";
+
 $route['home'] = "Welcome";
+
+$route['loggedHome'] = "Welcome/displayLoggedHome";
+
 
 

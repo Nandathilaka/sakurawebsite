@@ -130,13 +130,12 @@
                                 <a href="<?php echo base_url()?>index.php/ProductController/viewProducts"><i class="fa fa-edit fa-fw"></i> Manage items </a>
                             </li>
 
-<!-- 
                             <li>
-                                <a href="#"><i class="fa fa-edit fa-fw"></i> View Sales </a>
+                                <a href="<?php echo base_url()?>index.php/ProductController/viewOrders"><i class="fa fa-edit fa-fw"></i>View Orders</a>
                             </li>
-                             -->
-                           
-                            <li>
+
+
+                           <!--  <li>
                                 <a href="#"><i class="fa fa-sitemap fa-fw"></i> View Orders<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
@@ -148,7 +147,7 @@
                                     
                                 </ul>
                                 <!-- /.nav-second-level -->
-                            </li>
+                            <!-- </li> --> 
 
                             <li>
                                 <a href="#"><i class="fa fa-sitemap fa-fw"></i>Customers<span class="fa arrow"></span></a>
@@ -171,12 +170,12 @@
                                 <a href="#"><i class="fa fa-sitemap fa-fw"></i>Manage Employees<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="#">Register employees</a>
+                                        <a href="<?php echo base_url()?>index.php/EmployeeController/registerEmployee">Register employees</a>
                                     </li>
                                     <li>
-                                        <a href="#">View all employees</a>
+                                        <a href="<?php echo base_url('index.php/EmployeeController/viewEmplyee'); ?>">View all employees</a>
                                     </li>
-                                    
+
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>

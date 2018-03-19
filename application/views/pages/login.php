@@ -31,8 +31,8 @@
                 <?php echo form_close();?>
 
 			</div>
-			<h4>For New People</h4>
-			<p><a href="registered">Register Here</a> (Or) go back to <a href="home">Home<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p>
+			<!-- <h4>For New People</h4> -->
+			<!-- <p><a href="registered">Register Here</a> (Or) go back to <a href="home">Home<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p> -->
 		</div>
 	</div>
 <!-- //login -->

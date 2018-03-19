@@ -16,14 +16,12 @@ class adminModel extends CI_Model{
                 
                 if(!empty($user)){
 
-                    print("not empty");
-                   
+                                       
                     if($userInfo['admin_password'] == $user[0]->admin_password){
                             
                             return $user;
                         } else {
 
-                            print("admin");
                             return array();
                         }
                            

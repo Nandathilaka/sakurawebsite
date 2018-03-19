@@ -63,9 +63,7 @@
                                                                 <input type="hidden" name="cmd" value="_cart" />
                                                                 <input type="hidden" name="add" value="1" />
                                                                 <input type="hidden" name="business" value=" " />
-                                                                <!-- <input type="hidden" name="item_name" value="<?php echo $pro->product_title ;?>" /> -->
-                                                                <!-- <input type="hidden" name="amount" value="<?php echo "Rs.".$pro->product_price ;?>" />
-                                                                <input type="hidden" name="discount_amount" value="<?php echo "Rs.".$pro->product_discount ;?>" /> -->
+                                                                
                                                                 <input type="hidden" name="currency_code" value="USD" />
                                                                 <input type="hidden" name="return" value=" " />
                                                                 <input type="hidden" name="cancel_return" value=" " />

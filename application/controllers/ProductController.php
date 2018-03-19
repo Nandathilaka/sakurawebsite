@@ -141,6 +141,97 @@ class ProductController extends CI_Controller{
 
 		}
 
+
+
+	function addToCart(){
+
+		  $data = array(
+               'id'      => $this->input->post('id'), 
+               'name'    =>  $this->input->post('item_name'),         
+               'price'   => $this->input->post('amount'),
+               'qty' =>1,
+               'discount' =>$this->input->post('discount_amount'),
+               'image' =>$this->input->post('image')
+               
+            );
+
+            $this->cart->insert($data);
+
+            // redirect(base_url().'shopping-cart-view');
+            $this->shoppingCartView();
+	}
+
+
+	 function shoppingCartView(){
+	 	 		if($this->isLoggedIn()){
+
+                        $data['products'] = $this->cart->contents();
+
+                        $this->load->view('pages/checkout',$data);
+                }else{
+
+                	redirect('login');
+                }
+     }
+
+
+     function isLoggedIn(){
+
+		$isLoggedIn = $this->session->userdata('logged_in');
+
+		if(!isset($isLoggedIn) || $isLoggedIn!=TRUE){
+			return FALSE;
+		}else{			
+			  return TRUE;
+			
+		}
+
+	}
+
+
+
+     function saveCartProducts(){
+                        $ids = Array();
+                        $descriptions = Array();
+                        $prices = Array();
+                        $qtys = Array();
+                        $ids = $this->input->post('id');
+                        $descriptions = $this->input->post('name');
+                        $prices = $this->input->post('price');
+                        $qtys = $this->input->post('qty');
+
+                       
+                        if($this->isLoggedIn()){
+                        	$result = $this->productModel->save_cart_products($ids,$descriptions,$prices,$qtys);
+                       
+	                        if($result){
+	                                        $msg="Successfully Save...";
+	                                        $this->cart->destroy();
+	                                        }
+	                        else{
+	                                        $msg="Save Failed..."; 
+	                                        }                 
+	                                                       
+	                        $data=array('msg' => $msg);
+	                        $this->session->set_userdata('user',$data);    
+	                        // redirect(base_url().'shopping-cart-view');
+	                        $this->shoppingCartView();
+                        }else{
+
+                        	redirect('login');
+
+                        }                      
+
+                        
+        }
+
+        function viewOrders(){
+
+        	$data['orders'] = $this->productModel->getOrders();
+
+        	$this->load->view('admin/today_orders_view',$data);
+        }
+
 		
 
 

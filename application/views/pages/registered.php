@@ -41,9 +41,9 @@
 				<?php echo form_close();?>
 
 			</div>
-			<div class="register-home">
+			<!-- <div class="register-home">
 				<a href="home">Home</a>
-			</div>
+			</div> -->
 
 		</div>
 	</div>

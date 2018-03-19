@@ -14,20 +14,20 @@ class UserModel extends CI_Model{
         return $this->db->insert('customer_registration',$data);
     }
 
-    public function loginUser(){
+    public function loginUser($userInfo){       
 
-        $username = $this->input->post('email');
-        $password = sha1($this->input->post('pwd'));
+        $this->db->select("regId,firstName,lastName,userName");
+        $query = $this->db->get_where("customer_registration",$userInfo);
 
-        $this->db->where('userName',$username);
-        $this->db->where('password',$password);
+        $user = $query->result();
 
-        $response = $this->db->get('customer_registration');
-        if ($response->num_rows() == 1){
-            return $response->row(0);
+        if (!empty($user)){
+            return $user;
         }else{
             return FALSE;
         }
+
+
     }
 
 

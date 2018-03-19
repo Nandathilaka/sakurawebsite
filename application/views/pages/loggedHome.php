@@ -5,23 +5,67 @@
 
 
 
+<ul id="demo1">
+    <li>
+        <img src="<?php echo base_url()?>images/slideimg5.jpg" alt="" />
+        <!--Slider Description example-->
+        <div class="slide-desc">
+            <h3>Real Taste</h3>
+        </div>
+    </li>
 
+
+    <li>
+        <img src="<?php echo base_url()?>images/mainSlider2.jpg" alt="" />
+        <div class="slide-desc">
+            <h5>Our products</h5>
+        </div>
+    </li>
+    
+    <li>
+        <img src="<?php echo base_url()?>images/slideimg4.jpg" alt="" />
+        <div class="slide-desc">
+            <h3>Live healthy !!! Eat  healthy !!!</h3>
+        </div>
+    </li>
+
+    <li>
+        <img src="<?php echo base_url()?>images/slideimg2.jpg" alt="" />
+        <div class="slide-desc">
+            <h3>Enjoy our offers</h3>
+        </div>
+    </li>
+
+    <li>
+        <img src="<?php echo base_url()?>images/p14.jpg" alt="" />
+        <div class="slide-desc">
+            <h3>Awards achieved for the best products</h3>
+        </div>
+    </li>
+    <li>
+        <img src="<?php echo base_url()?>images/p9.jpg" alt="" />
+        <div class="slide-desc">
+            <h3>Awards achieved for the best products</h3>
+        </div>
+    </li>
+</ul>
 <!-- //main-slider -->
 <!-- //top-header and slider -->
 <!-- top-brands -->
 <div class="top-brands">
     <div class="container">
-      
+        <h2>Our Products</h2>
         <div class="grid_3 grid_5">
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
                 <ul id="myTab" class="nav nav-tabs" role="tablist">
-                    
+                    <li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">Advertised offers</a></li>
+                   <!--  <li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">Today Offers</a></li> -->
                 </ul>
 
                 <div id="myTabContent" class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="expeditions" aria-labelledby="expeditions-tab">
                         <div class="agile-tp">
-                            
+                            <h5>All products</h5>
                             
                         </div>
                         <div class="agile_top_brands_grids">
@@ -79,7 +123,7 @@
                         <?php
                             }
                         ?>
-                      
+                       
                             <div class="clearfix"> </div>
                         </div>
                         
